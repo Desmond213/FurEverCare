@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css" />
+  </head>
+  <body>
+    <main>
+      <section class="parent">
+        <div class="parent1"></div>
+        <div class="parent2">
+          <div class="txt1">
+            <h2>Sign Up</h2>
+          </div>
+          <form>
+            <div class="form1">
+              <label for="fullname">Full Name</label>
+              <input
+                type="text"
+                class="Fullname"
+                placeholder="John Doe"
+                required
+                id="fullname"
+                minlength="3"
+              />
+            </div>
+            <div class="form2">
+              <label for="fullname">Email</label>
+              <input
+                type="email"
+                class="email"
+                id="email"
+                placeholder="johndoe@gmail.com"
+                required
+                minlength="3"
+              />
+            </div>
+            <div class="form3">
+              <label for="username">Username</label>
+              <input
+                type="type"
+                class="username"
+                id="username"
+                placeholder="Username..."
+                required
+                minlength="3"
+              />
+            </div>
+            <div class="form4">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                id="password"
+                class="password"
+                placeholder="* * * * * * *"
+                required
+                minlength="5"
+              />
+            </div>
+            <div class="form5">
+              <label for="password">Repeat Password</label>
+              <input class="repeat" id="repeat" placeholder="* * * * * * *" />
+            </div>
+            <div class="checkbox">
+              <input type="checkbox" id="terms" name="terms" required />
+              <label for="terms" id="txt2">I agree to the Terms of User</label>
+            </div>
+            <div class="btn">
+              <button class="btn1">Sign Up</button>
+              <button class="btn2">
+                Sign In
+                <img
+                  src="static/img/right-arrow-removebg-preview.png"
+                  alt=""
+                  width="15px"
+                  height="10px"
+                />
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>

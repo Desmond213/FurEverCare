@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  ---signupfont: "Poppins", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+input {
+  outline: none;
+}
+body {
+  font-family: "EB Garamond", serif;
+  position: relative;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.parent1 {
+  height: 47rem;
+  width: 35rem;
+  background: url(images/dog4.jpg) no-repeat center / cover;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.226);
+  border-radius: 2rem 0rem 0rem 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.parent2 {
+  height: 47rem;
+  width: 35rem;
+  /* padding: 2rem 2rem 2rem 4rem; */
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 0rem 2rem 2rem 0rem;
+}
+
+.txt1 {
+  font-size: 2rem;
+  font-family: var(---signupfont);
+  background: linear-gradient(90deg, #f5a550, #ec7e1c, #c96510);
+  -webkit-background-clip : text;
+  -webkit-text-fill-color: transparent;
+}
+
+.form1 {
+  display: flex;
+  flex-direction: column;
+  border: none solid;
+  margin-top: 1.5rem;
+}
+Input {
+  outline: none;
+}
+.form1 > label {
+  font-size: 1.4rem;
+  font-family: var(---signupfont);
+}
+.Fullname {
+  height: 2.5rem;
+  border: none gray;
+  border-bottom: 2px solid gray;
+  padding: 1.5rem 0rem 0.3rem 0rem;
+}
+
+.form2 {
+  display: flex;
+  flex-direction: column;
+  border: none solid;
+  margin-top: 1.5rem;
+}
+
+.form2 > label {
+  font-size: 1.4rem;
+  font-family: var(---signupfont);
+}
+.email {
+  height: 2.5rem;
+  border: none gray;
+  border-bottom: 2px solid gray;
+  padding: 1.5rem 0rem 0.3rem 0rem;
+}
+
+.form3 {
+  display: flex;
+  flex-direction: column;
+  border: none solid;
+  margin-top: 1.5rem;
+}
+.form3 > label {
+  font-size: 1.4rem;
+  font-family: var(---signupfont);
+}
+.username {
+  height: 2.5rem;
+  border: none gray;
+  border-bottom: 2px solid gray;
+  padding: 1.5rem 0rem 0.3rem 0rem;
+}
+
+.form4 {
+  display: flex;
+  flex-direction: column;
+  border: none solid;
+  margin-top: 1.5rem;
+}
+.form4 > label {
+  font-size: 1.4rem;
+  font-family: var(---signupfont);
+}
+.password {
+  height: 2.5rem;
+  border: none gray;
+  border-bottom: 2px solid gray;
+  padding: 1.5rem 0rem 0.3rem 0rem;
+}
+
+.form5 {
+  display: flex;
+  flex-direction: column;
+  border: none solid;
+  margin-top: 1.5rem;
+}
+.form5 > label {
+  font-size: 1.4rem;
+  font-family: var(---signupfont);
+}
+.repeat {
+  height: 2.5rem;
+  border: none gray;
+  border-bottom: 2px solid gray;
+  padding: 1.5rem 0rem 0.3rem 0rem;
+}
+
+.checkbox {
+  height: 2.5rem;
+  padding: 1.5rem 0rem 0.3rem 0rem;
+  margin-top: 1rem;
+}
+#txt2 {
+  font-size: 1.6rem;
+  font-family: var(---signupfont);
+}
+
+.btn {
+  height: 2.5rem;
+  padding: 1.5rem 0rem 0.3rem 0rem;
+  margin-top: 1rem;
+}
+
+.btn1 {
+  height: 3rem;
+  width: 15rem;
+  border-radius: 2.5rem;
+  border: 0rem solid;
+  color: white;
+  background-color: #ec7e1c;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  font-family: var(---signupfont);
+}
+
+.btn1:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn2 {
+  height: 3rem;
+  width: 15rem;
+  border: none white;
+  background-color: white;
+  font-family: var(---signupfont);
+}
+
+input::placeholder {
+  font-family: var(---signupfont);
+}
