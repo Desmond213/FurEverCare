@@ -188,3 +188,26 @@ Input {
 input::placeholder {
   font-family: var(---signupfont);
 }
+
+@media (max-width: 760px) {
+  .parent{
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+
+  }
+  .parent1 {
+    width: 50rem;
+    height: 40rem;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+  }
+
+  .parent2{
+    width: 50rem;
+    margin-bottom: 20px;
+  }
+  
+}
