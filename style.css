@@ -945,7 +945,7 @@ a {
 
   button:hover {
     transform: translateY(-3px);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   }
 }
 
@@ -1593,7 +1593,6 @@ form button:hover {
   background-size: cover;
 }
 
-
 .parenttt {
   display: flex;
   justify-content: center;
@@ -1641,18 +1640,16 @@ form button:hover {
   padding: 15px 0px 3px 0px;
 }
 
-.team{
+.team {
   width: 100%;
-  h1{
+  h1 {
     text-align: center;
     margin-top: 60px;
     font-family: var(---mainfont);
   }
 }
 
-
-
-.cards{
+.cards {
   padding-left: 20px;
   padding-right: 20px;
   display: flex;
@@ -1677,11 +1674,10 @@ form button:hover {
   padding-right: 10px;
 }
 
-
 .circle {
   width: 80px;
   height: 80px;
-  background-color: #EC7E1C;
+  background-color: #ec7e1c;
   border-radius: 50%;
   margin-bottom: 15px;
   align-items: center;
@@ -1693,7 +1689,6 @@ form button:hover {
   font-size: 20px;
 }
 
-
 .card p {
   font-size: 16px;
   color: #333;
@@ -1702,86 +1697,86 @@ form button:hover {
   padding-top: 5px;
 }
 
-.footer{
+.footer {
   width: 100%;
   display: flex;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: #EC7E1C;
+  background-color: #ec7e1c;
   justify-content: center;
 }
 
-.footer1{
+.footer1 {
   height: 300px;
   width: 100%;
   max-width: 500px;
-  background-color: #EC7E1C;
+  background-color: #ec7e1c;
   padding-left: 10px;
   padding-right: 10px;
 
-  h1{
+  h1 {
     font-family: var(---mainfont);
     padding-top: 20px;
     color: white;
   }
 
-  p{
+  p {
     padding-top: 25px;
     font-family: var(---mainfont);
     color: white;
   }
 }
 
-.footer-icons{
+.footer-icons {
   margin-top: 40px;
 }
 
-.footer-icons i{
+.footer-icons i {
   color: white;
   font-size: 25px;
   padding-right: 20px;
 }
 
-.footer2{
+.footer2 {
   height: 300px;
   width: 100%;
   max-width: 400px;
-  background-color: #EC7E1C;
+  background-color: #ec7e1c;
   padding-left: 10px;
   padding-right: 10px;
 
-  h1{
+  h1 {
     font-family: var(---mainfont);
     padding-top: 20px;
     color: white;
     text-align: center;
   }
 
-  a{
+  a {
     color: white;
   }
 
-  p{
+  p {
     text-align: center;
     color: white;
     padding-top: 30px;
   }
 }
 
-.footer3{
+.footer3 {
   height: 300px;
   width: 100%;
   max-width: 300px;
   /* background-color: aqua; */
 
-  h1{
+  h1 {
     font-family: var(---mainfont);
     padding-top: 20px;
     color: white;
     text-align: center;
   }
 
-  p{
+  p {
     font-family: var(---mainfont);
     text-align: center;
     padding-top: 25px;
@@ -1789,24 +1784,243 @@ form button:hover {
     /* background-color: #795548; */
   }
 
-  p i{
+  p i {
     padding-right: 10px;
   }
 }
 
-.contact-icon2{
+.contact-icon2 {
   align-items: center;
 }
 
+.golden {
+  padding: 10px 30px;
+  border-bottom-right-radius: 10px;
+  border: none;
+  background-color: #6ed3cac9;
+  color: white;
+  transition: all 0.3s ease;
+}
 
+.golden i {
+  color: white;
+  padding-left: 10px;
+}
+
+.golden :hover {
+  background-color: #4bb5a9c9;
+}
+
+:root {
+  --primary-color: #ec7e1c;
+  --secondary-color: #ec7e1c;
+  --background-color: #e0f7fa;
+  --card-background: #ffffff;
+  --text-color: #333333;
+  --light-text: #666666;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+.page-header {
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  margin-bottom: 30px;
+}
+
+.page-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+/* Main Container */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Filter Sidebar */
+.filter-sidebar {
+  background-color: var(--card-background);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px var(--shadow-color);
+  flex-basis: 300px;
+}
+
+.filter-sidebar h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+}
+
+.filter-group {
+  margin-bottom: 20px;
+}
+
+.filter-group h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: var(--light-text);
+}
+
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.filter-btn {
+  background-color: #eeeeee;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.filter-btn:hover {
+  background-color: #dddddd;
+}
+
+.filter-btn.active {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+/* Article list */
+
+.article-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  flex-grow: 1;
+}
+
+.article-card {
+  background-color: var(--card-background);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px var(--shadow-color);
+  transition: transform 0.3 ease;
+}
+
+.article-card:hover {
+  transform: translateY(-5px);
+}
+.article-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.article-content {
+  padding: 20px;
+}
+
+.article-content h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: var(--primary-color);
+}
+
+.article-content p {
+  color: var(--light-text);
+  margin-bottom: 15px;
+}
+.tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.article-tag {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: white;
+}
+
+/* Pet Tags  */
+.dog-tag {
+  background-color: #8d6e63;
+}
+.cat-tag {
+  background-color: #616161;
+}
+.parrot-tag {
+  background-color: #ef5350;
+}
+.rabbit-tag {
+  background-color: #ffb300;
+}
+.fish-tag {
+  background-color: #ff7043;
+}
+.snail-tag {
+  background-color: #795548;
+}
+
+/* Topic Tags */
+.health-tag {
+  background-color: #ec7e1c;
+}
+.nutrition-tag {
+  background-color: #ec7e1c;
+}
+.grooming-tag {
+  background-color: #ec7e1c;
+}
+.habitat-tag {
+  background-color: #ec7e1c;
+}
+.training-tag {
+  background-color: #ff7043;
+}
+
+/* Responsivness */
 
 /* Responsive layout */
+
+#togo{
+  font-size: 2rem;
+  color: #ffff;
+  background: #ec7e1c;
+  padding: 20px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  /* border-radius: 50%; */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  &:hover{
+    background: #ed770f;
+    cursor: pointer;
+  }
+}
 @media (max-width: 900px) {
   .card {
     flex: 1 1 calc(50% - 20px); /* 2 per row on tablets */
   }
 
-  .cards{
+  .cards {
     flex-wrap: wrap;
   }
 }
@@ -1851,12 +2065,16 @@ form button:hover {
     flex-wrap: wrap;
   }
 
-  .footer{
+  .footer {
     flex-wrap: wrap;
   }
 
-  .footer1{
+  .footer1 {
     text-align: center;
+
+    p{
+      padding-top: 10px;
+    }
   }
 }
 
@@ -1982,222 +2200,30 @@ form button:hover {
   }
 }
 
-.golden {
-  padding: 10px 30px;
-  border-bottom-right-radius: 10px;
-  border: none;
-  background-color: #6ed3cac9;
-  color: white;
-  transition: all 0.3s ease;
-}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 0 10px;
+  }
 
-.golden i {
-  color: white;
-  padding-left: 10px;
-}
-
-.golden :hover {
-  background-color: #4bb5a9c9;
-}
-
-
-:root{
-    --primary-color: #ec7e1c;
-    --secondary-color: #ec7e1c;
-    --background-color: #E0F7FA;
-    --card-background: #FFFFFF;
-    --text-color: #333333;
-    --light-text:#666666;
-    --shadow-color: rgba(0, 0, 0, 0.1);
-}
-
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-/* Header styles */
-.page-header {
-    background-color: var(--primary-color);
-    color: white;
-    text-align: center;
-    padding: 40px 20px;
-    margin-bottom: 30px;
-}
-
-.page-header h1{
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-}
-
-/* Main Container */
-.container{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    max-width: 1200px;
-    margin:  0 auto;
-    padding: 0 20px;
-}
-
-/* Filter Sidebar */
-.filter-sidebar{
-    background-color: var(--card-background);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px var(--shadow-color);
-    flex-basis: 300px;
-}
-
-.filter-sidebar h2{
-    margin-bottom: 20px;
-    font-size: 1.5rem;
-    color: var(--primary-color);
-}
-
-.filter-group{
-    margin-bottom: 20px;
-}
-
-.filter-group h3{
-    font-size: 1.3rem;
-    margin-bottom: 10px;
-    color: var(--light-text);
-}
-
-.filter-buttons{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-.filter-btn {
-    background-color:#EEEEEE ;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 20px;
-    cursor: pointer;
-    font-size: 0.9rem;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.filter-btn:hover {
-    background-color: #DDDDDD;
-}
-
-.filter-btn.active{
-    background-color: var(--secondary-color);
-    color: white;
-}
-
-/* Article list */
-
-.article-list{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-    flex-grow: 1;
-}
-
-.article-card{
-    background-color: var(--card-background);
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px var(--shadow-color);
-    transition: transform 0.3 ease;
-}
-
-.article-card:hover{
-    transform: translateY(-5px);
-}
-.article-card img{
+  .filter-sidebar {
     width: 100%;
-    height: 200px;
-    object-fit: cover;
-}
-.article-content{
-    padding: 20px;
+  }
 }
 
-.article-content h3{
-    font-size: 1.3rem;
-    margin-bottom: 10px;
-    color: var(--primary-color);
-}
-
-.article-content p{
-    color:  var(--light-text);
-    margin-bottom: 15px;
-}
-.tags{
+@media (min-width: 811px) and (max-width: 1050) {
+  .container {
     display: flex;
-    gap: 8px;
+    flex-direction: row;
     flex-wrap: wrap;
+  }
+
+  .filter-sidebar {
+    width: 250px;
+  }
+  .article-list {
+    flex-grow: 1;
+
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
 }
-.article-tag{
-    display: inline-block;
-    padding: 5px 10px;
-    border-radius: 5px;
-    font-size: 0.8rem;
-    font-weight: bold;
-    color: white;
-}
-
-/* Pet Tags  */
-.dog-tag { background-color: #8D6E63; }
-.cat-tag { background-color: #616161; }
-.parrot-tag { background-color: #EF5350; }
-.rabbit-tag { background-color: #FFB300; }
-.fish-tag { background-color: #FF7043; }
-.snail-tag { background-color: #795548; }
-
-
-/* Topic Tags */
-.health-tag { background-color: #ec7e1c; }
-.nutrition-tag { background-color: #ec7e1c; }
-.grooming-tag { background-color: #ec7e1c; }
-.habitat-tag { background-color: #ec7e1c; }
-.training-tag { background-color: #FF7043; }
-
-/* Responsivness */
-
-@media (max-width :768px) {
-    .container{
-        flex-direction: column;
-        padding: 0 10px;
-    }
-
-    .filter-sidebar{
-        width: 100%;
-    }
-    
-}
-
-@media (min-width: 811px) and (max-width:1050) {
-    .container{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-    .filter-sidebar{
-        width: 250px;
-    }
-    .article-list{
-        flex-grow: 1;
-
-        grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
-    }
-    
-}
-
-
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-
