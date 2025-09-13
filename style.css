@@ -10,6 +10,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .containerBody {
@@ -2013,6 +2014,7 @@ form button:hover {
   &:hover{
     background: #ed770f;
     cursor: pointer;
+
   }
 }
 @media (max-width: 900px) {
