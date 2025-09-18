@@ -1812,6 +1812,17 @@ form button:hover {
   background-color: #4bb5a9c9;
 }
 
+.copyright{
+  p{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: var(---mainfont);
+    font-size: 12px;
+    color: #ec7e1c;
+  }
+}
+
 :root {
   --primary-color: #ec7e1c;
   --secondary-color: #ec7e1c;
