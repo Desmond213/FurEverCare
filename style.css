@@ -114,6 +114,9 @@ a {
   right: 1rem;
   align-items: center;
   color: black;
+  margin-right: 12px;
+  margin-top: 18px;
+  align-items: center;
 }
 
 .nav_hamburger_line {
