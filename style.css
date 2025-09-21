@@ -21,14 +21,8 @@
 body {
   scroll-behavior: smooth !important;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Open Sans", sans-serif;
-}
+
+
 
 /* navbar styling start */
 
@@ -2109,6 +2103,180 @@ form button:hover {
   }
 }
 
+
+/* dog page styling start */
+
+.hero-image1{
+  width: 100%;
+  height: 450px;
+  background-image: url(/images/park-dog.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: -100px;
+  position: relative;
+  z-index: 1;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.808);
+  padding-left: 20px;
+  padding-right: 20px;
+
+  h1{
+    color: #ed770f;
+    text-align: center;
+    padding-top: 200px;
+    font-family: var(---mainfont);
+    font-size: 50px;
+  }
+}
+
+.card-section{
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 50px;
+}
+
+.dog1{
+  height: 500px;
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(135deg, rgba(237, 119, 15, 0.25), rgba(237, 119, 15, 0.15));
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2{
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p{
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button{
+    margin-top: 15px;
+    padding: 5px 10px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 10px;
+  }
+}
+
+.dog-image1{
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/dogg2.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+
+.dog2{
+  height: 500px;
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(135deg, rgba(237, 119, 15, 0.25), rgba(237, 119, 15, 0.15));
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2{
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p{
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button{
+    margin-top: 15px;
+    padding: 5px 10px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 10px;
+  }
+}
+
+.dog-image2{
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/dog22.jpg);
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.dog3{
+  height: 500px;
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(135deg, rgba(237, 119, 15, 0.25), rgba(237, 119, 15, 0.15));
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2{
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p{
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button{
+    margin-top: 15px;
+    padding: 5px 10px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 10px;
+  }
+
+
+}
+
+.dog-image3{
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/dogg2.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+
+
+
+/* dog page styling ends */
+
 @media (max-width: 1200px) {
   .schedule-section {
     flex-wrap: wrap;
@@ -2192,6 +2360,41 @@ form button:hover {
     display: flex;
     justify-content: left;
   }
+
+  /* dog page styling start */
+
+  .card-section{
+    flex-wrap: wrap;
+  }
+
+  .dog1{
+    max-width: 600px;
+  }
+
+  .dog-image1{
+    max-width: 580px;
+    height: 280px;
+  }
+
+  .dog2{
+    max-width: 600px;
+  }
+
+  .dog-image2{
+    max-width: 580px;
+    height: 280px;
+  }
+
+  .dog3{
+    max-width: 600px;
+  }
+
+  .dog-image3{
+    max-width: 580px;
+    height: 280px;
+  }
+
+  /* dog page styling ends */
 }
 
 .hero-container1 h1 {
