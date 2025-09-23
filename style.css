@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Syne:wght@400..800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
   ---mainfont: "Poppins", sans-serif;
   ---secondary: "Cormorant", serif;
   ---extra-family: "Lato", sans-serif;
+  ---semi-family: "Lexend", sans-serif;
 }
 
 * {
@@ -2165,12 +2167,12 @@ form button:hover {
 
   button{
     margin-top: 15px;
-    padding: 5px 10px;
+    padding: 10px 20px;
     background-color: #ed770f;
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 10px;
+    border-radius: 5px;
   }
 }
 
@@ -2209,12 +2211,12 @@ form button:hover {
 
   button{
     margin-top: 15px;
-    padding: 5px 10px;
+    padding: 10px 20px;
     background-color: #ed770f;
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 10px;
+    border-radius: 5px;
   }
 }
 
@@ -2252,12 +2254,12 @@ form button:hover {
 
   button{
     margin-top: 15px;
-    padding: 5px 10px;
+    padding: 10px 20px;
     background-color: #ed770f;
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 10px;
+    border-radius: 5px;
   }
 
 
@@ -2267,10 +2269,499 @@ form button:hover {
   height: 250px;
   width: 100%;
   max-width: 360px;
-  background-image: url(/images/dogg2.jpg);
+  background-image: url(/images/doggg1.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 20px;
+}
+
+.card-section1{
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 10px;
+}
+
+.dog4{
+  height: 500px;
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(135deg, rgba(237, 119, 15, 0.25), rgba(237, 119, 15, 0.15));
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2{
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p{
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+  }
+}
+
+.dog-image4{
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/doggg2.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+
+.dog5{
+  height: 500px;
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(135deg, rgba(237, 119, 15, 0.25), rgba(237, 119, 15, 0.15));
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2{
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p{
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+  }
+}
+
+.dog-image5{
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/doggg3.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+
+.dog6{
+  height: 500px;
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(135deg, rgba(237, 119, 15, 0.25), rgba(237, 119, 15, 0.15));
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2{
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p{
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+  }
+}
+
+.dog-image6{
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/doggg4.jpg);
+  background-size: cover;
+  background-position: top;
+  border-radius: 20px;
+}
+
+.card-section2{
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 10px;
+}
+
+.dog7{
+  height: 500px;
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(135deg, rgba(237, 119, 15, 0.25), rgba(237, 119, 15, 0.15));
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2{
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p{
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+  }
+}
+
+.dog-image7{
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/doggg5.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+
+.dog8{
+  height: 500px;
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(135deg, rgba(237, 119, 15, 0.25), rgba(237, 119, 15, 0.15));
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2{
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p{
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+  }
+}
+
+.dog-image8{
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/doggg6.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+
+.dog9{
+  height: 500px;
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(135deg, rgba(237, 119, 15, 0.25), rgba(237, 119, 15, 0.15));
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2{
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p{
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+  }
+}
+
+.dog-image9{
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/doggg7.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+
+.card-section3{
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 10px;
+}
+
+.dog10{
+  height: 500px;
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(135deg, rgba(237, 119, 15, 0.25), rgba(237, 119, 15, 0.15));
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2{
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p{
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+  }
+}
+
+.dog-image10{
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/doggg8.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+
+
+.dog11{
+  height: 500px;
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(135deg, rgba(237, 119, 15, 0.25), rgba(237, 119, 15, 0.15));
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2{
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p{
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+  }
+}
+
+.dog-image11{
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/doggg9.jpg);
+  background-size: cover;
+  background-position: top;
+  border-radius: 20px;
+}
+
+.dog12{
+  height: 500px;
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(135deg, rgba(237, 119, 15, 0.25), rgba(237, 119, 15, 0.15));
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2{
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p{
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+  }
+}
+
+.dog-image12{
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/doggg10.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+
+.things-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.things-content{
+  width: 100%;
+  max-width: 920px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(237, 237, 237);
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 2px 8px;
+  padding: 20px;
+  border-radius: 15px;
+
+  h1{
+    font-family: var(---mainfont);
+    text-align: center;
+    font-weight: 500;
+    color: #ed770f;
+  }
+}
+
+.option1{
+  display: flex;
+  gap: 15px;
+  padding-top: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.187);
+  padding-bottom: 10px;
+
+  p{
+    font-family: var(---mainfont);
+    font-size: 14px;
+    padding-top: 5px;
+    color: rgba(0, 0, 0, 0.685);;
+  }
+}
+
+.dog-food{
+  font-family: var(---semi-family);
+  font-weight: 500;
+  color: #ed770f;
+}
+
+.option2{
+  display: flex;
+  gap: 15px;
+  padding-top: 20px;
+
+  p{
+    font-family: var(---mainfont);
+    font-size: 14px;
+    padding-top: 5px;
+    color: rgba(0, 0, 0, 0.685);
+  }
 }
 
 
@@ -2296,6 +2787,56 @@ form button:hover {
 @media (max-width: 600px) {
   .card {
     flex: 1 1 100%; /* 1 per row on mobile */
+  }
+}
+
+@media (max-width: 592px) {
+  .dog1{
+    height: 523px;
+  }
+
+  .dog2{
+    height: 523px;
+  }
+
+  .dog3{
+    height: 523px;
+  }
+
+  .dog4{
+    height: 523px;
+  }
+
+  .dog5{
+    height: 523px;
+  }
+
+  .dog6{
+    height: 523px;
+  }
+
+  .dog7{
+    height: 523px;
+  }
+
+  .dog8{
+    height: 523px;
+  }
+
+  .dog9{
+    height: 523px;
+  }
+
+  .dog10{
+    height: 523px;
+  }
+
+  .dog11{
+    height: 523px;
+  }
+
+  .dog12{
+    height: 523px;
   }
 }
 
@@ -2394,6 +2935,99 @@ form button:hover {
     height: 280px;
   }
 
+  .card-section1{
+    flex-wrap: wrap;
+  }
+
+  .dog4{
+    max-width: 600px;
+  }
+
+  .dog-image4{
+    max-width: 580px;
+    height: 280px;
+  }
+
+  .dog5{
+    max-width: 600px;
+  }
+
+  .dog-image5{
+    max-width: 580px;
+    height: 280px;
+  }
+
+  .dog6{
+    max-width: 600px;
+  }
+
+  .dog-image6{
+    max-width: 580px;
+    height: 280px;
+  }
+
+  .card-section2{
+    flex-wrap: wrap;
+  }
+
+  .dog7{
+    max-width: 600px;
+  }
+
+  .dog-image7{
+    max-width: 580px;
+    height: 280px;
+  }
+
+  .dog8{
+    max-width: 600px;
+  }
+
+  .dog-image8{
+    max-width: 580px;
+    height: 280px;
+  }
+
+  .dog9{
+    max-width: 600px;
+  }
+
+  .dog-image9{
+    max-width: 580px;
+    height: 280px;
+  }
+
+  .card-section3{
+    flex-wrap: wrap;
+  }
+
+  .dog10{
+    max-width: 600px;
+  }
+
+  .dog-image10{
+    max-width: 580px;
+    height: 280px;
+  }
+
+  .dog11{
+    max-width: 600px;
+  }
+
+  .dog-image11{
+    max-width: 580px;
+    height: 280px;
+  }
+
+  .dog12{
+    max-width: 600px;
+  }
+
+  .dog-image12{
+    max-width: 580px;
+    height: 280px;
+  }
+
   /* dog page styling ends */
 }
 
@@ -2485,6 +3119,30 @@ form button:hover {
   .left-side {
     border-top-right-radius: 15px;
     border-bottom-left-radius: 0px;
+  }
+
+  .hero-image1{
+    h1{
+      font-size: 40px;
+    }
+  }
+
+  .things-content{
+    h1{
+      font-size: 26px;
+    }
+  }
+
+  .option1{
+    h2{
+      font-size: 21px;
+    }
+  }
+
+  .option2{
+    h2{
+      font-size: 21px;
+    }
   }
 }
 
