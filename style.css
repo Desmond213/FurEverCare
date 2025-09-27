@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Syne:wght@400..800&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
   ---mainfont: "Poppins", sans-serif;
@@ -23,8 +23,6 @@
 body {
   scroll-behavior: smooth !important;
 }
-
-
 
 /* navbar styling start */
 
@@ -1778,7 +1776,6 @@ form button:hover {
   max-width: 350px;
   padding-left: 10px;
   padding-right: 10px;
-  
 
   h2 {
     font-family: var(---mainfont);
@@ -1800,7 +1797,7 @@ form button:hover {
   }
 }
 
-.gallery{
+.gallery {
   display: flex;
   justify-content: center;
   gap: 5px;
@@ -1824,7 +1821,6 @@ form button:hover {
   background-position: center;
 }
 
-
 .gallery3 {
   width: 100%;
   max-width: 105px;
@@ -1834,13 +1830,13 @@ form button:hover {
   background-position: center;
 }
 
-.new-gallery{
+.new-gallery {
   display: flex;
   justify-content: center;
   gap: 5px;
 }
 
-.new-gallery1{
+.new-gallery1 {
   width: 100%;
   max-width: 105px;
   height: 100px;
@@ -1849,7 +1845,7 @@ form button:hover {
   background-position: center;
 }
 
-.new-gallery2{
+.new-gallery2 {
   width: 100%;
   max-width: 105px;
   height: 100px;
@@ -1858,7 +1854,7 @@ form button:hover {
   background-position: center;
 }
 
-.new-gallery3{
+.new-gallery3 {
   width: 100%;
   max-width: 105px;
   height: 100px;
@@ -2105,10 +2101,9 @@ form button:hover {
   }
 }
 
-
 /* dog page styling start */
 
-.hero-image1{
+.hero-image1 {
   width: 100%;
   height: 450px;
   background-image: url(/images/park-dog.jpg);
@@ -2122,7 +2117,7 @@ form button:hover {
   padding-left: 20px;
   padding-right: 20px;
 
-  h1{
+  h1 {
     color: #ed770f;
     text-align: center;
     padding-top: 200px;
@@ -2131,7 +2126,105 @@ form button:hover {
   }
 }
 
-.card-section{
+.filter-category {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.filter-container {
+  /* height: 300px; */
+  width: 100%;
+  max-width: 1000px;
+  border: solid 0.5px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 10px;
+
+  h2 {
+    font-family: var(---mainfont);
+    color: #ed770f;
+  }
+}
+
+.the-pets {
+  display: flex;
+}
+
+.pet {
+  /* height: 100px; */
+  width: 100%;
+  max-width: 250px;
+  /* background-color: blue; */
+
+  h3 {
+    color: #1a1a1a7f;
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    font-weight: 500;
+  }
+}
+
+.pet1 {
+  margin-top: 10px;
+
+  button {
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    margin-right: 5px;
+    border-radius: 20px;
+    font-family: var(---mainfont);
+    margin-bottom: 10px;
+  }
+}
+
+.leatest-btn {
+  color: black;
+  border: none;
+  padding: 10px 15px;
+}
+
+.leatest-btn:Hover{
+  background-color: #cfcfcf;
+    transition: background-color 0.3s ease;
+}
+
+.topics {
+  /* height: 100px; */
+  width: 100%;
+  max-width: 400px;
+  /* background-color: blue; */
+  h3 {
+    color: #1a1a1a7f;
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    font-weight: 500;
+  }
+}
+
+.the-topics {
+  margin-top: 10px;
+
+  button {
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    margin-right: 5px;
+    border-radius: 20px;
+    font-family: var(---mainfont);
+    margin-bottom: 10px;
+  }
+
+  button:hover {
+    background-color: #cfcfcf;
+    transition: background-color 0.3s ease;
+  }
+}
+
+.card-section {
   width: 100%;
   padding-left: 20px;
   padding-right: 20px;
@@ -2142,11 +2235,15 @@ form button:hover {
   margin-bottom: 50px;
 }
 
-.dog1{
+.dog1 {
   height: 500px;
   width: 100%;
   max-width: 380px;
-  background: linear-gradient(135deg, rgba(237, 119, 15, 0.25), rgba(237, 119, 15, 0.15));
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-radius: 20px;
@@ -2154,18 +2251,18 @@ form button:hover {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   padding: 10px;
 
-  h2{
+  h2 {
     font-family: var(---mainfont);
     padding-top: 5px;
     color: #1a1a1a;
   }
 
-  p{
+  p {
     padding-top: 5px;
     font-family: var(---mainfont);
   }
 
-  button{
+  button {
     margin-top: 15px;
     padding: 10px 20px;
     background-color: #ed770f;
@@ -2176,7 +2273,7 @@ form button:hover {
   }
 }
 
-.dog-image1{
+.dog-image1 {
   height: 250px;
   width: 100%;
   max-width: 360px;
@@ -2186,11 +2283,15 @@ form button:hover {
   border-radius: 20px;
 }
 
-.dog2{
+.dog2 {
   height: 500px;
   width: 100%;
   max-width: 380px;
-  background: linear-gradient(135deg, rgba(237, 119, 15, 0.25), rgba(237, 119, 15, 0.15));
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-radius: 20px;
@@ -2198,18 +2299,18 @@ form button:hover {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   padding: 10px;
 
-  h2{
+  h2 {
     font-family: var(---mainfont);
     padding-top: 5px;
     color: #1a1a1a;
   }
 
-  p{
+  p {
     padding-top: 5px;
     font-family: var(---mainfont);
   }
 
-  button{
+  button {
     margin-top: 15px;
     padding: 10px 20px;
     background-color: #ed770f;
@@ -2220,7 +2321,7 @@ form button:hover {
   }
 }
 
-.dog-image2{
+.dog-image2 {
   height: 250px;
   width: 100%;
   max-width: 360px;
@@ -2229,11 +2330,15 @@ form button:hover {
   border-radius: 20px;
 }
 
-.dog3{
+.dog3 {
   height: 500px;
   width: 100%;
   max-width: 380px;
-  background: linear-gradient(135deg, rgba(237, 119, 15, 0.25), rgba(237, 119, 15, 0.15));
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-radius: 20px;
@@ -2241,18 +2346,18 @@ form button:hover {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   padding: 10px;
 
-  h2{
+  h2 {
     font-family: var(---mainfont);
     padding-top: 5px;
     color: #1a1a1a;
   }
 
-  p{
+  p {
     padding-top: 5px;
     font-family: var(---mainfont);
   }
 
-  button{
+  button {
     margin-top: 15px;
     padding: 10px 20px;
     background-color: #ed770f;
@@ -2261,11 +2366,9 @@ form button:hover {
     font-family: var(---mainfont);
     border-radius: 5px;
   }
-
-
 }
 
-.dog-image3{
+.dog-image3 {
   height: 250px;
   width: 100%;
   max-width: 360px;
@@ -2275,7 +2378,7 @@ form button:hover {
   border-radius: 20px;
 }
 
-.card-section1{
+.card-section1 {
   width: 100%;
   padding-left: 20px;
   padding-right: 20px;
@@ -2286,11 +2389,15 @@ form button:hover {
   margin-bottom: 10px;
 }
 
-.dog4{
+.dog4 {
   height: 500px;
   width: 100%;
   max-width: 380px;
-  background: linear-gradient(135deg, rgba(237, 119, 15, 0.25), rgba(237, 119, 15, 0.15));
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-radius: 20px;
@@ -2298,18 +2405,18 @@ form button:hover {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   padding: 10px;
 
-  h2{
+  h2 {
     font-family: var(---mainfont);
     padding-top: 5px;
     color: #1a1a1a;
   }
 
-  p{
+  p {
     padding-top: 5px;
     font-family: var(---mainfont);
   }
 
-  button{
+  button {
     margin-top: 15px;
     padding: 10px 20px;
     background-color: #ed770f;
@@ -2320,7 +2427,7 @@ form button:hover {
   }
 }
 
-.dog-image4{
+.dog-image4 {
   height: 250px;
   width: 100%;
   max-width: 360px;
@@ -2330,11 +2437,15 @@ form button:hover {
   border-radius: 20px;
 }
 
-.dog5{
+.dog5 {
   height: 500px;
   width: 100%;
   max-width: 380px;
-  background: linear-gradient(135deg, rgba(237, 119, 15, 0.25), rgba(237, 119, 15, 0.15));
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-radius: 20px;
@@ -2342,18 +2453,18 @@ form button:hover {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   padding: 10px;
 
-  h2{
+  h2 {
     font-family: var(---mainfont);
     padding-top: 5px;
     color: #1a1a1a;
   }
 
-  p{
+  p {
     padding-top: 5px;
     font-family: var(---mainfont);
   }
 
-  button{
+  button {
     margin-top: 15px;
     padding: 10px 20px;
     background-color: #ed770f;
@@ -2364,7 +2475,7 @@ form button:hover {
   }
 }
 
-.dog-image5{
+.dog-image5 {
   height: 250px;
   width: 100%;
   max-width: 360px;
@@ -2374,11 +2485,15 @@ form button:hover {
   border-radius: 20px;
 }
 
-.dog6{
+.dog6 {
   height: 500px;
   width: 100%;
   max-width: 380px;
-  background: linear-gradient(135deg, rgba(237, 119, 15, 0.25), rgba(237, 119, 15, 0.15));
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-radius: 20px;
@@ -2386,18 +2501,18 @@ form button:hover {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   padding: 10px;
 
-  h2{
+  h2 {
     font-family: var(---mainfont);
     padding-top: 5px;
     color: #1a1a1a;
   }
 
-  p{
+  p {
     padding-top: 5px;
     font-family: var(---mainfont);
   }
 
-  button{
+  button {
     margin-top: 15px;
     padding: 10px 20px;
     background-color: #ed770f;
@@ -2408,7 +2523,7 @@ form button:hover {
   }
 }
 
-.dog-image6{
+.dog-image6 {
   height: 250px;
   width: 100%;
   max-width: 360px;
@@ -2418,7 +2533,7 @@ form button:hover {
   border-radius: 20px;
 }
 
-.card-section2{
+.card-section2 {
   width: 100%;
   padding-left: 20px;
   padding-right: 20px;
@@ -2429,11 +2544,15 @@ form button:hover {
   margin-bottom: 10px;
 }
 
-.dog7{
+.dog7 {
   height: 500px;
   width: 100%;
   max-width: 380px;
-  background: linear-gradient(135deg, rgba(237, 119, 15, 0.25), rgba(237, 119, 15, 0.15));
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-radius: 20px;
@@ -2441,18 +2560,18 @@ form button:hover {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   padding: 10px;
 
-  h2{
+  h2 {
     font-family: var(---mainfont);
     padding-top: 5px;
     color: #1a1a1a;
   }
 
-  p{
+  p {
     padding-top: 5px;
     font-family: var(---mainfont);
   }
 
-  button{
+  button {
     margin-top: 15px;
     padding: 10px 20px;
     background-color: #ed770f;
@@ -2463,7 +2582,7 @@ form button:hover {
   }
 }
 
-.dog-image7{
+.dog-image7 {
   height: 250px;
   width: 100%;
   max-width: 360px;
@@ -2473,11 +2592,15 @@ form button:hover {
   border-radius: 20px;
 }
 
-.dog8{
+.dog8 {
   height: 500px;
   width: 100%;
   max-width: 380px;
-  background: linear-gradient(135deg, rgba(237, 119, 15, 0.25), rgba(237, 119, 15, 0.15));
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-radius: 20px;
@@ -2485,18 +2608,18 @@ form button:hover {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   padding: 10px;
 
-  h2{
+  h2 {
     font-family: var(---mainfont);
     padding-top: 5px;
     color: #1a1a1a;
   }
 
-  p{
+  p {
     padding-top: 5px;
     font-family: var(---mainfont);
   }
 
-  button{
+  button {
     margin-top: 15px;
     padding: 10px 20px;
     background-color: #ed770f;
@@ -2507,7 +2630,7 @@ form button:hover {
   }
 }
 
-.dog-image8{
+.dog-image8 {
   height: 250px;
   width: 100%;
   max-width: 360px;
@@ -2517,11 +2640,15 @@ form button:hover {
   border-radius: 20px;
 }
 
-.dog9{
+.dog9 {
   height: 500px;
   width: 100%;
   max-width: 380px;
-  background: linear-gradient(135deg, rgba(237, 119, 15, 0.25), rgba(237, 119, 15, 0.15));
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-radius: 20px;
@@ -2529,18 +2656,18 @@ form button:hover {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   padding: 10px;
 
-  h2{
+  h2 {
     font-family: var(---mainfont);
     padding-top: 5px;
     color: #1a1a1a;
   }
 
-  p{
+  p {
     padding-top: 5px;
     font-family: var(---mainfont);
   }
 
-  button{
+  button {
     margin-top: 15px;
     padding: 10px 20px;
     background-color: #ed770f;
@@ -2551,7 +2678,7 @@ form button:hover {
   }
 }
 
-.dog-image9{
+.dog-image9 {
   height: 250px;
   width: 100%;
   max-width: 360px;
@@ -2561,7 +2688,7 @@ form button:hover {
   border-radius: 20px;
 }
 
-.card-section3{
+.card-section3 {
   width: 100%;
   padding-left: 20px;
   padding-right: 20px;
@@ -2572,11 +2699,15 @@ form button:hover {
   margin-bottom: 10px;
 }
 
-.dog10{
+.dog10 {
   height: 500px;
   width: 100%;
   max-width: 380px;
-  background: linear-gradient(135deg, rgba(237, 119, 15, 0.25), rgba(237, 119, 15, 0.15));
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-radius: 20px;
@@ -2584,18 +2715,18 @@ form button:hover {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   padding: 10px;
 
-  h2{
+  h2 {
     font-family: var(---mainfont);
     padding-top: 5px;
     color: #1a1a1a;
   }
 
-  p{
+  p {
     padding-top: 5px;
     font-family: var(---mainfont);
   }
 
-  button{
+  button {
     margin-top: 15px;
     padding: 10px 20px;
     background-color: #ed770f;
@@ -2606,7 +2737,7 @@ form button:hover {
   }
 }
 
-.dog-image10{
+.dog-image10 {
   height: 250px;
   width: 100%;
   max-width: 360px;
@@ -2616,12 +2747,15 @@ form button:hover {
   border-radius: 20px;
 }
 
-
-.dog11{
+.dog11 {
   height: 500px;
   width: 100%;
   max-width: 380px;
-  background: linear-gradient(135deg, rgba(237, 119, 15, 0.25), rgba(237, 119, 15, 0.15));
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-radius: 20px;
@@ -2629,18 +2763,18 @@ form button:hover {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   padding: 10px;
 
-  h2{
+  h2 {
     font-family: var(---mainfont);
     padding-top: 5px;
     color: #1a1a1a;
   }
 
-  p{
+  p {
     padding-top: 5px;
     font-family: var(---mainfont);
   }
 
-  button{
+  button {
     margin-top: 15px;
     padding: 10px 20px;
     background-color: #ed770f;
@@ -2651,7 +2785,7 @@ form button:hover {
   }
 }
 
-.dog-image11{
+.dog-image11 {
   height: 250px;
   width: 100%;
   max-width: 360px;
@@ -2661,11 +2795,15 @@ form button:hover {
   border-radius: 20px;
 }
 
-.dog12{
+.dog12 {
   height: 500px;
   width: 100%;
   max-width: 380px;
-  background: linear-gradient(135deg, rgba(237, 119, 15, 0.25), rgba(237, 119, 15, 0.15));
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-radius: 20px;
@@ -2673,18 +2811,18 @@ form button:hover {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   padding: 10px;
 
-  h2{
+  h2 {
     font-family: var(---mainfont);
     padding-top: 5px;
     color: #1a1a1a;
   }
 
-  p{
+  p {
     padding-top: 5px;
     font-family: var(---mainfont);
   }
 
-  button{
+  button {
     margin-top: 15px;
     padding: 10px 20px;
     background-color: #ed770f;
@@ -2695,7 +2833,7 @@ form button:hover {
   }
 }
 
-.dog-image12{
+.dog-image12 {
   height: 250px;
   width: 100%;
   max-width: 360px;
@@ -2705,7 +2843,7 @@ form button:hover {
   border-radius: 20px;
 }
 
-.things-container{
+.things-container {
   display: flex;
   justify-content: center;
   margin-top: 50px;
@@ -2713,7 +2851,7 @@ form button:hover {
   padding-right: 20px;
 }
 
-.things-content{
+.things-content {
   width: 100%;
   max-width: 920px;
   background-color: rgb(255, 255, 255);
@@ -2722,7 +2860,7 @@ form button:hover {
   padding: 20px;
   border-radius: 15px;
 
-  h1{
+  h1 {
     font-family: var(---mainfont);
     text-align: center;
     font-weight: 500;
@@ -2730,33 +2868,14 @@ form button:hover {
   }
 }
 
-.option1{
+.option1 {
   display: flex;
   gap: 15px;
   padding-top: 20px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.187);
   padding-bottom: 10px;
 
-  p{
-    font-family: var(---mainfont);
-    font-size: 14px;
-    padding-top: 5px;
-    color: rgba(0, 0, 0, 0.685);;
-  }
-}
-
-.dog-food{
-  font-family: var(---semi-family);
-  font-weight: 500;
-  color: #ed770f;
-}
-
-.option2{
-  display: flex;
-  gap: 15px;
-  padding-top: 20px;
-
-  p{
+  p {
     font-family: var(---mainfont);
     font-size: 14px;
     padding-top: 5px;
@@ -2764,9 +2883,1329 @@ form button:hover {
   }
 }
 
+.dog-food {
+  font-family: var(---semi-family);
+  font-weight: 500;
+  color: #ed770f;
+}
 
+.option2 {
+  display: flex;
+  gap: 15px;
+  padding-top: 20px;
 
+  p {
+    font-family: var(---mainfont);
+    font-size: 14px;
+    padding-top: 5px;
+    color: rgba(0, 0, 0, 0.685);
+  }
+}
 /* dog page styling ends */
+
+/* cats styling starts */
+
+.cathero-image1 {
+  width: 100%;
+  height: 450px;
+  background-image: url(/images/catts1.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: -100px;
+  position: relative;
+  z-index: 1;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.808);
+  padding-left: 20px;
+  padding-right: 20px;
+
+  h1 {
+    color: #ed770f;
+    text-align: center;
+    padding-top: 200px;
+    font-family: var(---mainfont);
+    font-size: 50px;
+  }
+}
+
+.catcard-section {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 50px;
+}
+
+.cat1 {
+  height: 500px;
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2 {
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p {
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+  }
+}
+
+.cat-image1 {
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/catttt1.jpg);
+  background-size: cover;
+  background-position: top;
+  border-radius: 20px;
+}
+
+.cat2 {
+  height: 500px;
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2 {
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p {
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+  }
+}
+
+.cat-image2 {
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/catttt2.jpg);
+  background-size: cover;
+  background-position: top;
+  border-radius: 20px;
+}
+
+.cat3 {
+  height: 500px;
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2 {
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p {
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+  }
+}
+
+.cat-image3 {
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/cattt3.jpg);
+  background-size: cover;
+  background-position: top;
+  border-radius: 20px;
+}
+
+.catcard-section1 {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 50px;
+}
+
+.cat4 {
+  height: 500px;
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2 {
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p {
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+  }
+}
+
+.cat-image4 {
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/cattt4.jpg);
+  background-size: cover;
+  background-position: top;
+  border-radius: 20px;
+}
+
+.cat5 {
+  height: 500px;
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2 {
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p {
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+  }
+}
+
+.cat-image5 {
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/cattt6.jpg);
+  background-size: cover;
+  background-position: top;
+  border-radius: 20px;
+}
+
+.cat6 {
+  height: 500px;
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2 {
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p {
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+  }
+}
+
+.cat-image6 {
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/cattt7.jpg);
+  background-size: cover;
+  background-position: top;
+  border-radius: 20px;
+}
+
+.catcard-section2 {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 50px;
+}
+
+.cat7 {
+  height: 500px;
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2 {
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p {
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+  }
+}
+
+.cat-image7 {
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/cattt8.jpg);
+  background-size: cover;
+  background-position: top;
+  border-radius: 20px;
+}
+
+.cat8 {
+  height: 500px;
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2 {
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p {
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+  }
+}
+
+.cat-image8 {
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/cattt9.jpg);
+  background-size: cover;
+  background-position: top;
+  border-radius: 20px;
+}
+
+.cat9 {
+  height: 500px;
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2 {
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p {
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+  }
+}
+
+.cat-image9 {
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/cattt10.jpg);
+  background-size: cover;
+  background-position: top;
+  border-radius: 20px;
+}
+
+.catcard-section3 {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 50px;
+}
+
+.cat10 {
+  height: 500px;
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2 {
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p {
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+  }
+}
+
+.cat-image10 {
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/cattt11.jpg);
+  background-size: cover;
+  background-position: top;
+  border-radius: 20px;
+}
+
+.cat11 {
+  height: 500px;
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2 {
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p {
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+  }
+}
+
+.cat-image11 {
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/cattt12.jpg);
+  background-size: cover;
+  background-position: top;
+  border-radius: 20px;
+}
+
+.cat12 {
+  height: 500px;
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2 {
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p {
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+  }
+}
+
+.cat-image12 {
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/cattt13.jpg);
+  background-size: cover;
+  background-position: top;
+  border-radius: 20px;
+}
+
+.notform{
+  /* background-color: red; */
+  width: 100%;
+  max-width: 1000px;
+  border: solid 0.5px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 10px;
+
+}
+
+/* cats styling ends */
+
+/* parot stying starts */
+
+.parothero-image1 {
+  width: 100%;
+  height: 450px;
+  background-image: url(/images/hero-parot.jpg);
+  background-size: cover;
+  background-position: top;
+  margin-top: -100px;
+  position: relative;
+  z-index: 1;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.808);
+  padding-left: 20px;
+  padding-right: 20px;
+
+  h1 {
+    color: #ed770f;
+    text-align: center;
+    padding-top: 200px;
+    font-family: var(---mainfont);
+    font-size: 50px;
+  }
+}
+
+.parotcard-section {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 50px;
+}
+
+.parot1 {
+  /* height: 520px; */
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2 {
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p {
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+  }
+}
+
+.parot-image1 {
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/parot1.jpg);
+  background-size: cover;
+  background-position: top;
+  border-radius: 20px;
+}
+
+.parot2 {
+  /* height: 520px; */
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2 {
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p {
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+  }
+}
+
+.parot-image2 {
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/parot2.jpg);
+  background-size: cover;
+  background-position: top;
+  border-radius: 20px;
+}
+
+.parot3 {
+  /* height: 500px; */
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2 {
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p {
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+  }
+}
+
+.parot-image3 {
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/parot3.jpg);
+  background-size: cover;
+  background-position: top;
+  border-radius: 20px;
+}
+
+.parotcard-section1 {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 50px;
+}
+
+.parot4 {
+  /* height: 500px; */
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2 {
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p {
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+  }
+}
+
+.parot-image4 {
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/parot4.jpg);
+  background-size: cover;
+  background-position: top;
+  border-radius: 20px;
+}
+
+.parot5 {
+  /* height: 500px; */
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2 {
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p {
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+  }
+}
+
+.parot-image5 {
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/parot55.jpg);
+  background-size: cover;
+  background-position: top;
+  border-radius: 20px;
+}
+
+.parot6 {
+  /* height: 500px; */
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2 {
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p {
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+  }
+}
+
+.parot-image6 {
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/parot6.jpg);
+  background-size: cover;
+  background-position: top;
+  border-radius: 20px;
+}
+
+.parotcard-section2 {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 50px;
+}
+
+.parot7 {
+  /* height: 500px; */
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2 {
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p {
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+  }
+}
+
+.parot-image7 {
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/parot77.jpg);
+  background-size: cover;
+  background-position: top;
+  border-radius: 20px;
+}
+
+.parot8 {
+  /* height: 500px; */
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2 {
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p {
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+  }
+}
+
+.parot-image8 {
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/parot8.jpg);
+  background-size: cover;
+  background-position: top;
+  border-radius: 20px;
+}
+
+.parot9 {
+  /* height: 500px; */
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2 {
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p {
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+  }
+}
+
+.parot-image9 {
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/parot9.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+
+.parotcard-section3 {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 50px;
+}
+
+.parot10 {
+  /* height: 500px; */
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2 {
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p {
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+  }
+}
+
+.parot-image10 {
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/parot10.jpg);
+  background-size: cover;
+  background-position: top;
+  border-radius: 20px;
+}
+
+.parot11 {
+  /* height: 500px; */
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2 {
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p {
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+  }
+}
+
+.parot-image11 {
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/parot9.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+
+.parot12 {
+  /* height: 500px; */
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2 {
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p {
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+  }
+}
+
+.parot-image12 {
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/parot9.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+
+/* parot styling ends */
 
 @media (max-width: 1200px) {
   .schedule-section {
@@ -2791,51 +4230,51 @@ form button:hover {
 }
 
 @media (max-width: 592px) {
-  .dog1{
+  .dog1 {
     height: 523px;
   }
 
-  .dog2{
+  .dog2 {
     height: 523px;
   }
 
-  .dog3{
+  .dog3 {
     height: 523px;
   }
 
-  .dog4{
+  .dog4 {
     height: 523px;
   }
 
-  .dog5{
+  .dog5 {
     height: 523px;
   }
 
-  .dog6{
+  .dog6 {
     height: 523px;
   }
 
-  .dog7{
+  .dog7 {
     height: 523px;
   }
 
-  .dog8{
+  .dog8 {
     height: 523px;
   }
 
-  .dog9{
+  .dog9 {
     height: 523px;
   }
 
-  .dog10{
+  .dog10 {
     height: 523px;
   }
 
-  .dog11{
+  .dog11 {
     height: 523px;
   }
 
-  .dog12{
+  .dog12 {
     height: 523px;
   }
 }
@@ -2843,7 +4282,6 @@ form button:hover {
 /*  */
 
 /* tobi-styling-end */
-
 
 @media (max-width: 768px) {
   .nav_links {
@@ -2883,152 +4321,464 @@ form button:hover {
     }
   }
 
-  .footer2{
+  .footer2 {
     max-width: 800px;
     padding-left: 0px;
   }
 
-  .footer3{
+  .footer3 {
     max-width: 800px;
   }
 
-  .gallery{
+  .gallery {
     display: flex;
     justify-content: left;
   }
 
-  .new-gallery{
+  .new-gallery {
     display: flex;
     justify-content: left;
+  }
+
+  .container {
+    flex-direction: column;
+    padding: 0 10px;
+  }
+
+  .filter-sidebar {
+    width: 100%;
   }
 
   /* dog page styling start */
 
-  .card-section{
+  .card-section {
     flex-wrap: wrap;
   }
 
-  .dog1{
+  .dog1 {
     max-width: 600px;
   }
 
-  .dog-image1{
+  .dog-image1 {
     max-width: 580px;
     height: 280px;
   }
 
-  .dog2{
+  .dog2 {
     max-width: 600px;
   }
 
-  .dog-image2{
+  .dog-image2 {
     max-width: 580px;
     height: 280px;
   }
 
-  .dog3{
+  .dog3 {
     max-width: 600px;
   }
 
-  .dog-image3{
+  .dog-image3 {
     max-width: 580px;
     height: 280px;
   }
 
-  .card-section1{
+  .card-section1 {
     flex-wrap: wrap;
   }
 
-  .dog4{
+  .dog4 {
     max-width: 600px;
   }
 
-  .dog-image4{
+  .dog-image4 {
     max-width: 580px;
     height: 280px;
   }
 
-  .dog5{
+  .dog5 {
     max-width: 600px;
   }
 
-  .dog-image5{
+  .dog-image5 {
     max-width: 580px;
     height: 280px;
   }
 
-  .dog6{
+  .dog6 {
     max-width: 600px;
   }
 
-  .dog-image6{
+  .dog-image6 {
     max-width: 580px;
     height: 280px;
   }
 
-  .card-section2{
+  .card-section2 {
     flex-wrap: wrap;
   }
 
-  .dog7{
+  .dog7 {
     max-width: 600px;
   }
 
-  .dog-image7{
+  .dog-image7 {
     max-width: 580px;
     height: 280px;
   }
 
-  .dog8{
+  .dog8 {
     max-width: 600px;
   }
 
-  .dog-image8{
+  .dog-image8 {
     max-width: 580px;
     height: 280px;
   }
 
-  .dog9{
+  .dog9 {
     max-width: 600px;
   }
 
-  .dog-image9{
+  .dog-image9 {
     max-width: 580px;
     height: 280px;
   }
 
-  .card-section3{
+  .card-section3 {
     flex-wrap: wrap;
   }
 
-  .dog10{
+  .dog10 {
     max-width: 600px;
   }
 
-  .dog-image10{
+  .dog-image10 {
     max-width: 580px;
     height: 280px;
   }
 
-  .dog11{
+  .dog11 {
     max-width: 600px;
   }
 
-  .dog-image11{
+  .dog-image11 {
     max-width: 580px;
     height: 280px;
   }
 
-  .dog12{
+  .dog12 {
     max-width: 600px;
   }
 
-  .dog-image12{
+  .dog-image12 {
     max-width: 580px;
     height: 280px;
   }
 
   /* dog page styling ends */
+
+  /* cat styling starts */
+  .catcard-section {
+    flex-wrap: wrap;
+  }
+
+  .cat1 {
+    max-width: 600px;
+    height: 550px;
+  }
+
+  .cat-image1 {
+    max-width: 580px;
+    height: 300px;
+    background-position: center;
+  }
+
+  .cat2 {
+    max-width: 600px;
+    height: 550px;
+  }
+
+  .cat-image2 {
+    max-width: 580px;
+    height: 300px;
+    background-position: center;
+  }
+
+  .cat3 {
+    max-width: 600px;
+    height: 550px;
+  }
+
+  .cat-image3 {
+    max-width: 580px;
+    height: 300px;
+    background-position: top;
+  }
+
+  .catcard-section1 {
+    flex-wrap: wrap;
+  }
+
+  .cat4 {
+    max-width: 600px;
+    height: 550px;
+  }
+
+  .cat-image4 {
+    max-width: 580px;
+    height: 300px;
+    background-position: top;
+  }
+
+  .cat5 {
+    max-width: 600px;
+    height: 550px;
+  }
+
+  .cat-image5 {
+    max-width: 580px;
+    height: 300px;
+    background-position: top;
+  }
+
+  .cat6 {
+    max-width: 600px;
+    height: 550px;
+  }
+
+  .cat-image6 {
+    max-width: 580px;
+    height: 300px;
+    background-position: top;
+  }
+
+  .catcard-section2 {
+    flex-wrap: wrap;
+  }
+
+  .cat7 {
+    max-width: 600px;
+    height: 550px;
+  }
+
+  .cat-image7 {
+    max-width: 580px;
+    height: 300px;
+    background-position: top;
+  }
+
+  .cat8 {
+    max-width: 600px;
+    height: 550px;
+  }
+
+  .cat-image8 {
+    max-width: 580px;
+    height: 300px;
+    background-position: top;
+  }
+
+  .cat9 {
+    max-width: 600px;
+    height: 550px;
+  }
+
+  .cat-image9 {
+    max-width: 580px;
+    height: 300px;
+    background-position: top;
+  }
+
+  .catcard-section3 {
+    flex-wrap: wrap;
+  }
+
+  .cat10 {
+    max-width: 600px;
+    height: 550px;
+  }
+
+  .cat-image10 {
+    max-width: 580px;
+    height: 300px;
+    background-position: top;
+  }
+
+  .cat11 {
+    max-width: 600px;
+    height: 550px;
+  }
+
+  .cat-image11 {
+    max-width: 580px;
+    height: 300px;
+    background-position: center;
+  }
+
+  .cat12 {
+    max-width: 600px;
+    height: 550px;
+  }
+
+  .cat-image12 {
+    max-width: 580px;
+    height: 300px;
+    background-position: top;
+  }
+
+  /* cat styling ends */
+
+  /* parot styling starts */
+
+  .parotcard-section {
+    flex-wrap: wrap;
+  }
+
+  .parot1 {
+    max-width: 600px;
+    height: 550px;
+  }
+
+  .parot-image1 {
+    max-width: 580px;
+    height: 300px;
+    background-position: center;
+  }
+
+  .parot2 {
+    max-width: 600px;
+    height: 550px;
+  }
+
+  .parot-image2 {
+    max-width: 580px;
+    height: 300px;
+    background-position: top;
+  }
+
+  .parot3 {
+    max-width: 600px;
+    height: 550px;
+  }
+
+  .parot-image3 {
+    max-width: 580px;
+    height: 300px;
+    background-position: center;
+  }
+
+  .parotcard-section1 {
+    flex-wrap: wrap;
+  }
+
+  .parot4 {
+    max-width: 600px;
+    height: 550px;
+  }
+
+  .parot-image4 {
+    max-width: 580px;
+    height: 300px;
+    background-position: center;
+  }
+
+  .parot5 {
+    max-width: 600px;
+    height: 550px;
+  }
+
+  .parot-image5 {
+    max-width: 580px;
+    height: 300px;
+    background-position: top;
+  }
+
+  .parot6 {
+    max-width: 600px;
+    height: 550px;
+  }
+
+  .parotcard-section2 {
+    flex-wrap: wrap;
+  }
+
+  .parot-image6 {
+    max-width: 580px;
+    height: 300px;
+    background-position: center;
+  }
+
+  .parot7 {
+    max-width: 600px;
+    height: 550px;
+  }
+
+  .parot-image7 {
+    max-width: 580px;
+    height: 300px;
+    background-position: top;
+  }
+
+  .parot8 {
+    max-width: 600px;
+    height: 550px;
+  }
+
+  .parot-image8 {
+    max-width: 580px;
+    height: 300px;
+    background-position: center;
+  }
+
+  .parot9 {
+    max-width: 600px;
+    height: 550px;
+  }
+
+  .parot-image9 {
+    max-width: 580px;
+    height: 300px;
+    background-position: center;
+  }
+
+  .parotcard-section3 {
+    flex-wrap: wrap;
+  }
+
+  .parot10 {
+    max-width: 600px;
+    height: 550px;
+  }
+
+  .parot-image10 {
+    max-width: 580px;
+    height: 300px;
+    background-position: top;
+  }
+
+  .parot11 {
+    max-width: 600px;
+    height: 550px;
+  }
+
+  .parot-image11 {
+    max-width: 580px;
+    height: 300px;
+    background-position: center;
+  }
+
+  .parot12 {
+    max-width: 600px;
+    height: 550px;
+  }
+
+  .parot-image12 {
+    max-width: 580px;
+    height: 300px;
+    background-position: center;
+  }
+
+  /* parot styling ends */
 }
 
 .hero-container1 h1 {
@@ -3121,28 +4871,47 @@ form button:hover {
     border-bottom-left-radius: 0px;
   }
 
-  .hero-image1{
-    h1{
+  .hero-image1 {
+    h1 {
       font-size: 40px;
     }
   }
 
-  .things-content{
-    h1{
+  .things-content {
+    h1 {
       font-size: 26px;
     }
   }
 
-  .option1{
-    h2{
+  .option1 {
+    h2 {
       font-size: 21px;
     }
   }
 
-  .option2{
-    h2{
+  .option2 {
+    h2 {
       font-size: 21px;
     }
+  }
+
+  .cathero-image1 {
+    h1 {
+      font-size: 40px;
+    }
+  }
+
+  .parothero-image1 {
+    height: 350px;
+
+    h1 {
+      font-size: 35px;
+      padding-top: 180px;
+    }
+  }
+
+  .the-pets {
+    flex-wrap: wrap;
   }
 }
 
@@ -3174,17 +4943,6 @@ form button:hover {
   .hero-container2 {
     gap: 20px;
     flex-direction: column;
-  }
-}
-
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-    padding: 0 10px;
-  }
-
-  .filter-sidebar {
-    width: 100%;
   }
 }
 
