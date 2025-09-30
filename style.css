@@ -588,212 +588,329 @@ a {
   font-size: 20px;
 }
 
-.pets-details {
-  width: 100%;
-  display: flex;
-  gap: 10px;
-  margin-top: 50px;
-}
-
-.picture1 {
-  height: 600px;
-  width: 100%;
-  max-width: 400px;
-  /* background-color: red; */
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-
-.dog-picture1 {
-  width: 100%;
-  height: 350px;
-  max-width: 400px;
-  background-image: url(/images/dog20.jpg);
-  background-size: cover;
-  background-position: center;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-
-.dog-content1 {
-  width: 100%;
-  max-width: 400px;
-  height: 250px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-  padding-left: 10px;
-  padding-right: 10px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-
-  h2 {
-    font-family: var(---mainfont);
-    padding-top: 10px;
-  }
-
-  p {
-    padding-top: 12px;
-    font-family: var(---mainfont);
-  }
-
-  button {
-    padding: 10px 20px;
-    border: none;
-    background-color: #ec7e1c;
-    color: white;
-    margin-top: 10px;
-    border-radius: 3px;
-    cursor: pointer;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-  }
-
-  button:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* optional for subtle depth */
-  }
-}
-
-.picture2 {
-  height: 600px;
-  width: 100%;
-  max-width: 400px;
-  /* background-color: red; */
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-
-.cat-picture1 {
-  width: 100%;
-  height: 350px;
-  max-width: 400px;
-  background-image: url(/images/lizard.jpg);
-  background-size: cover;
-  background-position: center;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-
-.cat-content1 {
-  width: 100%;
-  max-width: 400px;
-  height: 250px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-  padding-left: 10px;
-  padding-right: 10px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-
-  h2 {
-    font-family: var(---mainfont);
-    padding-top: 10px;
-  }
-
-  p {
-    padding-top: 12px;
-    font-family: var(---mainfont);
-  }
-
-  button {
-    padding: 10px 20px;
-    border: none;
-    background-color: #ec7e1c;
-    color: white;
-    margin-top: 10px;
-    border-radius: 3px;
-    cursor: pointer;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-  }
-
-  button:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* optional for subtle depth */
-  }
-}
-
-.picture3 {
-  height: 600px;
-  width: 100%;
-  max-width: 400px;
-  /* background-color: red; */
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-
-.tortise-picture1 {
-  width: 100%;
-  height: 350px;
-  max-width: 400px;
-  background-image: url(/images/cat6.jpg);
-  background-size: cover;
-  background-position: center;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-
-.tortise-content1 {
-  width: 100%;
-  max-width: 400px;
-  height: 250px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-  padding-left: 10px;
-  padding-right: 10px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-
-  h2 {
-    font-family: var(---mainfont);
-    padding-top: 10px;
-  }
-
-  p {
-    padding-top: 12px;
-    font-family: var(---mainfont);
-  }
-
-  button {
-    padding: 10px 20px;
-    border: none;
-    background-color: #ec7e1c;
-    color: white;
-    margin-top: 10px;
-    border-radius: 3px;
-    cursor: pointer;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-  }
-
-  button:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* optional for subtle depth */
-  }
-}
-
-.pets-details2 {
+.petcard-section{
   width: 100%;
   padding-left: 20px;
   padding-right: 20px;
+  margin-top: 50px;
   display: flex;
   justify-content: center;
-  gap: 10px;
-}
-
-.picture11 {
-  height: 600px;
-  width: 100%;
-  max-width: 400px;
-  /* background-color: red; */
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  gap: 25px;
   margin-bottom: 50px;
 }
 
-.dog-picture11 {
+.pett1 {
+  /* height: 500px; */
   width: 100%;
-  height: 350px;
-  max-width: 400px;
-  background-image: url(/images/dog22.jpg);
+  max-width: 380px;
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2 {
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p {
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
+
+.pett-image1 {
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/doggg6.jpg);
   background-size: cover;
   background-position: center;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-radius: 20px;
+}
+
+.pett2 {
+  /* height: 500px; */
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2 {
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p {
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button {
+    /* margin-top: 15px; */
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
+
+.pett-image2 {
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/cattt6.jpg);
+  background-size: cover;
+  background-position: top;
+  border-radius: 20px;
+}
+
+.pett3 {
+  /* height: 500px; */
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2 {
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p {
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
+
+.pett-image3 {
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/rabbit2.jpg);
+  background-size: cover;
+  background-position: top;
+  border-radius: 20px;
+}
+
+.pettcard-section1{
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 50px;
+}
+
+.pett4{
+  /* height: 500px; */
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2 {
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p {
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
+
+.pett-image4{
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/parot7.jpg);
+  background-size: cover;
+  background-position: top;
+  border-radius: 20px;
+}
+
+.pett5{
+  /* height: 500px; */
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2 {
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p {
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
+
+.pett-image5{
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/dogg2.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+
+.pett6{
+  /* height: 500px; */
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2 {
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p {
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
+
+.pett-image6{
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/parot10.jpg);
+  background-size: cover;
+  background-position: top;
+  border-radius: 20px;
+}
+
+.marquess-style{
+  font-family: var(---mainfont);
+  background-color: #ed770f;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 30px;
 }
 
 .dog-content11 {
@@ -2187,9 +2304,9 @@ form button:hover {
   padding: 10px 15px;
 }
 
-.leatest-btn:Hover{
+.leatest-btn:hover {
   background-color: #cfcfcf;
-    transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
 }
 
 .topics {
@@ -2859,6 +2976,7 @@ form button:hover {
   box-shadow: rgba(0, 0, 0, 0.04) 0px 2px 8px;
   padding: 20px;
   border-radius: 15px;
+  margin-bottom: 40px;
 
   h1 {
     font-family: var(---mainfont);
@@ -2974,6 +3092,7 @@ form button:hover {
     border: none;
     font-family: var(---mainfont);
     border-radius: 5px;
+    cursor: pointer;
   }
 }
 
@@ -3022,6 +3141,7 @@ form button:hover {
     border: none;
     font-family: var(---mainfont);
     border-radius: 5px;
+    cursor: pointer;
   }
 }
 
@@ -3070,6 +3190,7 @@ form button:hover {
     border: none;
     font-family: var(---mainfont);
     border-radius: 5px;
+    cursor: pointer;
   }
 }
 
@@ -3129,6 +3250,7 @@ form button:hover {
     border: none;
     font-family: var(---mainfont);
     border-radius: 5px;
+    cursor: pointer;
   }
 }
 
@@ -3177,6 +3299,7 @@ form button:hover {
     border: none;
     font-family: var(---mainfont);
     border-radius: 5px;
+    cursor: pointer;
   }
 }
 
@@ -3225,6 +3348,7 @@ form button:hover {
     border: none;
     font-family: var(---mainfont);
     border-radius: 5px;
+    cursor: pointer;
   }
 }
 
@@ -3284,6 +3408,7 @@ form button:hover {
     border: none;
     font-family: var(---mainfont);
     border-radius: 5px;
+    cursor: pointer;
   }
 }
 
@@ -3332,6 +3457,7 @@ form button:hover {
     border: none;
     font-family: var(---mainfont);
     border-radius: 5px;
+    cursor: pointer;
   }
 }
 
@@ -3380,6 +3506,7 @@ form button:hover {
     border: none;
     font-family: var(---mainfont);
     border-radius: 5px;
+    cursor: pointer;
   }
 }
 
@@ -3439,6 +3566,7 @@ form button:hover {
     border: none;
     font-family: var(---mainfont);
     border-radius: 5px;
+    cursor: pointer;
   }
 }
 
@@ -3487,6 +3615,7 @@ form button:hover {
     border: none;
     font-family: var(---mainfont);
     border-radius: 5px;
+    cursor: pointer;
   }
 }
 
@@ -3535,6 +3664,7 @@ form button:hover {
     border: none;
     font-family: var(---mainfont);
     border-radius: 5px;
+    cursor: pointer;
   }
 }
 
@@ -3548,16 +3678,95 @@ form button:hover {
   border-radius: 20px;
 }
 
-.notform{
-  /* background-color: red; */
-  width: 100%;
-  max-width: 1000px;
-  border: solid 0.5px rgba(0, 0, 0, 0.1);
-  border-radius: 20px;
-  padding: 10px;
-
+.schedule-form {
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
+.schedule-formcontainer {
+  width: 100%;
+  max-width: 500px;
+  border: 1px solid #ed770f76;
+  box-shadow: 0 4px 8px rgba(237, 119, 15, 0.4);
+  border-radius: 10px;
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+  padding-left: 10px;
+  padding-right: 10px;
+
+  button{
+    padding: 10px 30px;
+    color: white;
+    background-color: #ed770f;
+    font-family: var(---mainfont);
+  }
+}
+
+.secondform{
+  h2{
+    color: black;
+    text-align: center;
+    font-family: var(---mainfont);
+    font-weight: 400;
+  }
+}
+
+label{
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #555;
+  font-family: var(---mainfont);
+  font-weight: 400;
+}
+
+input[type="text"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  background-color: #fff;
+  outline: none;
+  margin-bottom: 20px;
+  transition: border-color 0.3s ease;
+  font-family: var(---mainfont);
+}
+
+input[type="datetime-local"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;  /* <--- Ensures there's a border */
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #ed770f;
+}
+
+#first-name,
+#last-name {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ccc;      /* Makes border clearly visible */
+  border-radius: 6px;
+  font-size: 15px;
+  background-color: #fff;      /* Makes sure the background is visible */
+  outline: none;
+  margin-bottom: 20px;
+  transition: border-color 0.3s ease;
+}
+
+#first-name:focus,
+#last-name:focus {
+  border-color: #28a745;       /* Green border on focus */
+}
 /* cats styling ends */
 
 /* parot stying starts */
@@ -4207,6 +4416,668 @@ form button:hover {
 
 /* parot styling ends */
 
+/* rabbit styling starts */
+
+.rabbithero-image1{
+  width: 100%;
+  height: 450px;
+  background-image: url(/images/herorabbit2.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: -100px;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.808);
+  padding-left: 20px;
+  padding-right: 20px;
+
+  h1 {
+    color: #ed770f;
+    text-align: center;
+    padding-top: 200px;
+    font-family: var(---mainfont);
+    font-size: 50px;
+  }
+}
+
+.rabbitcard-section {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 50px;
+}
+
+.rabbit1 {
+  height: 500px;
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2 {
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p {
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
+
+.rabbit-image1 {
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/rabbit2.jpg);
+  background-size: cover;
+  background-position: top;
+  border-radius: 20px;
+}
+
+.rabbit2 {
+  height: 500px;
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2 {
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p {
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
+
+.rabbit-image2 {
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/rabbit3.jpg);
+  background-size: cover;
+  background-position: top;
+  border-radius: 20px;
+}
+
+.rabbit3 {
+  height: 500px;
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2 {
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p {
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
+
+.rabbit-image3 {
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/rabbit4.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+
+.rabbitcard-section1 {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 50px;
+}
+
+.rabbit4 {
+  height: 500px;
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2 {
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p {
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
+
+.rabbit-image4 {
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/rabbit5.jpg);
+  background-size: cover;
+  background-position: top;
+  border-radius: 20px;
+}
+
+.rabbit5 {
+  height: 500px;
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2 {
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p {
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
+
+.rabbit-image5 {
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/rabbit6.jpg);
+  background-size: cover;
+  background-position: top;
+  border-radius: 20px;
+}
+
+.rabbit6{
+  height: 500px;
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2 {
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p {
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
+
+.rabbit-image6 {
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/rabbit7.jpg);
+  background-size: cover;
+  background-position: top;
+  border-radius: 20px;
+}
+
+.rabbitcard-section2 {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 50px;
+}
+
+.rabbit7{
+  height: 500px;
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2 {
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p {
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
+
+.rabbit-image7 {
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/rabbit8.jpg);
+  background-size: cover;
+  background-position: top;
+  border-radius: 20px;
+}
+
+.rabbit8{
+  height: 500px;
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2 {
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p {
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
+
+.rabbit-image8 {
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/rabbit9.jpg);
+  background-size: cover;
+  background-position: top;
+  border-radius: 20px;
+}
+
+.rabbit9{
+  height: 500px;
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2 {
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p {
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
+
+.rabbit-image9 {
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/rabbit10.jpg);
+  background-size: cover;
+  background-position: top;
+  border-radius: 20px;
+}
+
+.rabbitcard-section3 {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 50px;
+}
+
+.rabbit10{
+  height: 500px;
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2 {
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p {
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
+
+.rabbit-image10 {
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/rabbit11.jpg);
+  background-size: cover;
+  background-position: top;
+  border-radius: 20px;
+}
+
+.rabbit11{
+  height: 500px;
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2 {
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p {
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
+
+.rabbit-image11 {
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/rabbit12.jpg);
+  background-size: cover;
+  background-position: top;
+  border-radius: 20px;
+}
+
+.rabbit12{
+  height: 500px;
+  width: 100%;
+  max-width: 380px;
+  background: linear-gradient(
+    135deg,
+    rgba(237, 119, 15, 0.25),
+    rgba(237, 119, 15, 0.15)
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  h2 {
+    font-family: var(---mainfont);
+    padding-top: 5px;
+    color: #1a1a1a;
+  }
+
+  p {
+    padding-top: 5px;
+    font-family: var(---mainfont);
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ed770f;
+    color: white;
+    border: none;
+    font-family: var(---mainfont);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
+
+.rabbit-image12 {
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  background-image: url(/images/rabbit13.jpg);
+  background-size: cover;
+  background-position: top;
+  border-radius: 20px;
+}
+
+
+
+/* rabbit styling ends */
+
 @media (max-width: 1200px) {
   .schedule-section {
     flex-wrap: wrap;
@@ -4348,6 +5219,71 @@ form button:hover {
   .filter-sidebar {
     width: 100%;
   }
+
+  /* pets section styling starts */
+
+  .petcard-section{
+    flex-wrap: wrap;
+  }
+
+  .pett1{
+    max-width: 600px;
+  }
+
+  .pett-image1{
+    max-width: 580px;
+    height: 280px;
+  }
+
+  .pett2{
+    max-width: 600px;
+  }
+
+  .pett-image2{
+    max-width: 580px;
+    height: 280px;
+  }
+
+  .pett3{
+    max-width: 600px;
+  }
+
+  .pett-image3{
+    max-width: 580px;
+    height: 280px;
+  }
+
+  .pettcard-section1{
+    flex-wrap: wrap;
+  }
+
+  .pett4{
+    max-width: 600px;
+  }
+
+  .pett-image4{
+    max-width: 580px;
+    height: 280px;
+  }
+
+  .pett5{
+    max-width: 600px;
+  }
+
+  .pett-image5{
+    max-width: 580px;
+    height: 280px;
+  }
+
+  .pett6{
+    max-width: 600px;
+  }
+
+  .pett-image6{
+    max-width: 580px;
+    height: 280px;
+  }
+  /* pet section styling ends */
 
   /* dog page styling start */
 
@@ -4779,6 +5715,158 @@ form button:hover {
   }
 
   /* parot styling ends */
+
+  /* rabbit styling starts */
+
+   .rabbitcard-section{
+    flex-wrap: wrap;
+   }
+
+   .rabbit1{
+    max-width: 600px;
+    height: 550px;
+   }
+
+   .rabbit-image1{
+    max-width: 580px;
+    height: 300px;
+    background-position: top;
+   }
+
+   .rabbit2{
+    max-width: 600px;
+    height: 550px;
+   }
+
+   .rabbit-image2{
+    max-width: 580px;
+    height: 300px;
+    background-position: top;
+   }
+
+   .rabbit3{
+    max-width: 600px;
+    height: 550px;
+   }
+
+   .rabbit-image3{
+    max-width: 580px;
+    height: 300px;
+    background-position: center;
+   }
+
+   .rabbitcard-section1{
+    flex-wrap: wrap;
+   }
+
+   .rabbit4{
+    max-width: 600px;
+    height: 550px;
+   }
+
+   .rabbit-image4{
+    max-width: 580px;
+    height: 300px;
+    background-position: center;
+   }
+
+   .rabbit5{
+    max-width: 600px;
+    height: 550px;
+   }
+
+   .rabbit-image5{
+    max-width: 580px;
+    height: 300px;
+    background-position: center;
+   }
+
+   .rabbit6{
+    max-width: 600px;
+    height: 550px;
+   }
+
+   .rabbit-image6{
+    max-width: 580px;
+    height: 300px;
+    background-position: center;
+   }
+
+   .rabbitcard-section2{
+    flex-wrap: wrap;
+   }
+
+   .rabbit7{
+    max-width: 600px;
+    height: 550px;
+   }
+
+   .rabbit-image7{
+    max-width: 580px;
+    height: 300px;
+    background-position: top;
+   }
+
+   .rabbit8{
+    max-width: 600px;
+    height: 550px;
+   }
+
+   .rabbit-image8{
+    max-width: 580px;
+    height: 300px;
+    background-position: center;
+   }
+
+   .rabbit9{
+    max-width: 600px;
+    height: 550px;
+   }
+
+   .rabbit-image9{
+    max-width: 580px;
+    height: 300px;
+    background-position: center;
+   }
+
+   .rabbitcard-section3{
+    flex-wrap: wrap;
+   }
+
+   .rabbit10{
+    max-width: 600px;
+    height: 550px;
+   }
+
+   .rabbit-image10{
+    max-width: 580px;
+    height: 300px;
+    background-position: center;
+   }
+
+   .rabbit11{
+    max-width: 600px;
+    height: 550px;
+   }
+
+   .rabbit-image11{
+    max-width: 580px;
+    height: 300px;
+    background-position: center;
+   }
+
+   .rabbit12{
+    max-width: 600px;
+    height: 550px;
+   }
+
+   .rabbit-image12{
+    max-width: 580px;
+    height: 300px;
+    background-position: center;
+   }
+
+  /* rabbit styling ends */
 }
 
 .hero-container1 h1 {
@@ -4912,6 +6000,26 @@ form button:hover {
 
   .the-pets {
     flex-wrap: wrap;
+  }
+
+  .rabbithero-image1{
+    h1{
+      font-size: 40px;
+    }
+  }
+
+  .petcard-section{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .pettcard-section1{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .pett1{
+    max-width: 600px;
   }
 }
 

@@ -47,13 +47,13 @@
                <div class="pet">
                   <h3>Pet Type</h3>
                   <div class="pet1">
-                     <a href="index.html#all-button"><button>All</button></a>
+                     <a href="index.html#all-button"><button class="filter-btn">All</button></a>
                      <button class="filter-btn active" id="dog-button" style="border: none; outline: none;">Dogs</button>
-                     <a href="cats.html#cat-button"><button>Cats</button></a>
-                     <a href="parot.html#parot-button"><button><Data>Parrot</Data></button></a>
-                     <button>Rabbit</button>
-                     <button>Snails</button>
-                     <button>Fish</button>
+                     <a href="cats.html#cat-button"><button class="filter-btn">Cats</button></a>
+                     <a href="parot.html#parot-button"><button class="filter-btn"><Data>Parrot</Data></button></a>
+                     <a href="rabbit.html#rabbit-button"><button class="filter-btn">Rabbit</button></a>
+                     <button class="filter-btn">Snails</button>
+                     <button class="filter-btn">Fish</button>
                   </div>
                </div>
                <div class="topics">
@@ -80,7 +80,7 @@
          <p>Age: 8 months</p>
          <p>Breed: Cain corso</p>
          <p>Friendly, playful, and great with kids. Loves long walks and cuddles.</p>
-         <button>Schedule Visit</button>
+         <a href="#schedule-form"><button>Schedule Visit</button></a>
        </div>
 
        <div class="dog2">
@@ -89,7 +89,7 @@
           <p>Age: 3 months</p>
           <p>Breed: Cain corso</p>
           <p>Friendly, playful, and great with kids. Loves long walks and cuddles.</p>
-          <button>Schedule Visit</button>
+          <a href="#schedule-form"><button>Schedule Visit</button></a>
        </div>
        <div class="dog3">
           <div class="dog-image3"></div>
@@ -97,7 +97,7 @@
           <p>Age: 6 months</p>
           <p>Breed: Bulldog</p>
           <p>Friendly, playful, and great with kids. Loves long walks and cuddles.</p>
-          <button>Schedule Visit</button>
+          <a href="#schedule-form"><button>Schedule Visit</button></a>
        </div>
     </div>
 
@@ -108,7 +108,7 @@
          <p>Age: 2 Years</p>
          <p>Breed: Border Collie</p>
          <p>Friendly, playful, and great with kids. Loves long walks and cuddles.</p>
-         <button>Schedule Visit</button>
+         <a href="#schedule-form"><button>Schedule Visit</button></a>
        </div>
 
        <div class="dog5">
@@ -117,7 +117,7 @@
           <p>Age: 1 Year</p>
           <p>Breed: Cain corso</p>
           <p>Friendly, playful, and great with kids. Loves long walks and cuddles.</p>
-          <button>Schedule Visit</button>
+          <a href="#schedule-form"><button>Schedule Visit</button></a>
        </div>
        <div class="dog6">
           <div class="dog-image6"></div>
@@ -125,7 +125,7 @@
           <p>Age: 3 Years</p>
           <p>Breed: Shih Tzu</p>
           <p>Friendly, playful, and great with kids. Loves long walks and cuddles.</p>
-          <button>Schedule Visit</button>
+          <a href="#schedule-form"><button>Schedule Visit</button></a>
        </div>
     </div>
 
@@ -136,7 +136,7 @@
          <p>Age: 8 months</p>
          <p>Breed: Cain corso</p>
          <p>Friendly, playful, and great with kids. Loves long walks and cuddles.</p>
-         <button>Schedule Visit</button>
+         <a href="#schedule-form"><button>Schedule Visit</button></a>
        </div>
 
        <div class="dog8">
@@ -145,7 +145,7 @@
           <p>Age: 9 months</p>
           <p>Breed: Chihuahua</p>
           <p>Friendly, playful, and great with kids. Loves long walks and cuddles.</p>
-          <button>Schedule Visit</button>
+          <a href="#schedule-form"><button>Schedule Visit</button></a>
        </div>
        <div class="dog9">
           <div class="dog-image9"></div>
@@ -153,7 +153,7 @@
           <p>Age: 2 Years</p>
           <p>Breed: Australian Shepherd</p>
           <p>Friendly, playful, and great with kids. Loves long walks and cuddles.</p>
-          <button>Schedule Visit</button>
+          <a href="#schedule-form"><button>Schedule Visit</button></a>
        </div>
     </div>
 
@@ -173,7 +173,7 @@
           <p>Age: 3 months</p>
           <p>Breed: Beagle</p>
           <p>Friendly, playful, and great with kids. Loves long walks and cuddles.</p>
-          <button>Schedule Visit</button>
+          <a href="#schedule-form"><button>Schedule Visit</button></a>
        </div>
        <div class="dog12">
           <div class="dog-image12"></div>
@@ -181,7 +181,7 @@
           <p>Age: 2 Years</p>
           <p>Breed: Boxer</p>
           <p>Friendly, playful, and great with kids. Loves long walks and cuddles.</p>
-          <button>Schedule Visit</button>
+          <a href="#schedule-form"><button>Schedule Visit</button></a>
        </div>
     </div>
 
@@ -237,6 +237,27 @@
                <p>Ensure clean, fresh water is available at all times. Refill and wash the bowl daily.</p>
              </div>
           </div>
+       </div>
+    </div>
+
+    <div class="schedule-form" id="schedule-form">
+      <div class="schedule-formcontainer">
+            <form action="" class="secondform">
+               <h2>Schedule a Visit</h2>
+
+               <label for="text">Fullname</label>
+               <input type="text" placeholder="Name" required>
+
+               <label for="phone">Phone</label>
+               <input type="tel" placeholder="+234" required>
+
+               <label for="visit-datetime">Select Date & Time:</label>
+               <input type="datetime-local" id="visit-datetime" name="visit-datetime" required>
+
+               <label for="message">Message</label>
+               <textarea name="message" id=""></textarea>
+               <button class="sbt-btn">Submit</button>
+            </form>
        </div>
     </div>
 

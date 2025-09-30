@@ -42,13 +42,13 @@
                <div class="pet">
                   <h3>Pet Type</h3>
                   <div class="pet1">
-                     <a href="index.html#all-button"><button>All</button></a>
-                     <a href="dogs.html#dog-button"><button><Data>Dogs</Data></button></a>
-                     <a href="cats.html#cat-button"><button>Cats</button></a>
+                     <a href="index.html#all-button"><button class="filter-btn">All</button></a>
+                     <a href="dogs.html#dog-button"><button class="filter-btn"><Data>Dogs</Data></button></a>
+                     <a href="cats.html#cat-button" class="filter-btn"><button>Cats</button></a>
                      <button class="filter-btn active" id="parot-button" style="border: none; outline: none;">Parot</button>
-                     <button>Rabbit</button>
-                     <button>Snails</button>
-                     <button>Fish</button>
+                     <a href="rabbit.html#rabbit-button"><button class="filter-btn">Rabbit</button></a>
+                     <button class="filter-btn">Snails</button>
+                     <button class="filter-btn">Fish</button>
                   </div>
                </div>
                <div class="topics">
@@ -74,7 +74,7 @@
          <p>Age: 8 months</p>
          <p>Breed: Cockatiel Parrot</p>
          <p>Sweet, social, playful, and affectionate — perfect for families, beginners, and bird lovers alike.</p>
-         <button>Schedule Visit</button>
+         <a href="#schedule-form"><button>Schedule Visit</button></a>
        </div>
 
        <div class="parot2">
@@ -83,7 +83,7 @@
           <p>Age: 3 months</p>
           <p>Breed: Senegal Parrot</p>
           <p>Quiet, intelligent, affectionate, and easygoing — great for apartments and bonding closely with their owners.</p>
-          <button>Schedule Visit</button>
+          <a href="#schedule-form"><button>Schedule Visit</button></a>
        </div>
        <div class="parot3">
           <div class="parot-image3"></div>
@@ -91,7 +91,7 @@
           <p>Age: 6 months</p>
           <p>Breed: Sun Conure</p>
           <p>Vibrant, energetic, affectionate, and playful — loves attention and brings color and joy to any home.</p>
-          <button>Schedule Visit</button>
+          <a href="#schedule-form"><button>Schedule Visit</button></a>
        </div>
     </div>
 
@@ -102,7 +102,7 @@
          <p>Age: 2 Years</p>
          <p>Breed: Meyer’s Parrot</p>
          <p>Calm, gentle, intelligent, and affectionate — a quiet companion that bonds well and loves interactive play.</p>
-         <button>Schedule Visit</button>
+         <a href="#schedule-form"><button>Schedule Visit</button></a>
        </div>
 
        <div class="parot5">
@@ -111,7 +111,7 @@
           <p>Age: 1 Year</p>
           <p>Breed: Eclectus Parrot</p>
           <p>Elegant, intelligent, calm, and talkative — known for stunning colors and forming deep bonds with owners.</p>
-          <button>Schedule Visit</button>
+          <a href="#schedule-form"><button>Schedule Visit</button></a>
        </div>
        <div class="parot6">
           <div class="parot-image6"></div>
@@ -119,7 +119,7 @@
           <p>Age: 3 Years</p>
           <p>Breed: Amazon Parrot</p>
           <p>Lively, vocal, intelligent, and affectionate — loves to talk, play, and interact with the whole family.</p>
-          <button>Schedule Visit</button>
+          <a href="#schedule-form"><button>Schedule Visit</button></a>
        </div>
     </div>
 
@@ -130,7 +130,7 @@
          <p>Age: 8 months</p>
          <p>Breed: Scarlet Macaw</p>
          <p>Friendly, playful, and great with kids. Loves long walks and cuddlesFriendly, playful, and talkative — a small, smart bird that easily bonds with its owner.</p>
-         <button>Schedule Visit</button>
+         <a href="#schedule-form"><button>Schedule Visit</button></a>
        </div>
 
        <div class="parot8">
@@ -139,7 +139,7 @@
           <p>Age: 9 months</p>
           <p>Breed: Cockatoo Parrot</p>
           <p>Friendly, playful, and great with kids. Loves long walks and cuddlesFriendly, playful, and talkative — a small, smart bird that easily bonds with its owner.</p>
-          <button>Schedule Visit</button>
+          <a href="#schedule-form"><button>Schedule Visit</button></a>
        </div>
        <div class="parot9">
           <div class="parot-image9"></div>
@@ -147,7 +147,7 @@
           <p>Age: 2 Years</p>
           <p>Breed: Budgerigar Parrot</p>
           <p>Friendly, playful, and great with kids. Loves long walks and cuddlesFriendly, playful, and talkative — a small, smart bird that easily bonds with its owner.</p>
-          <button>Schedule Visit</button>
+          <a href="#schedule-form"><button>Schedule Visit</button></a>
        </div>
     </div>
 
@@ -158,7 +158,7 @@
          <p>Age: 3 Years</p>
          <p>Breed: Dusky-Headed Conure</p>
          <p>Friendly, playful, and great with kids. Loves long walks and cuddles.</p>
-         <button>Schedule Visit</button>
+         <a href="#schedule-form"><button>Schedule Visit</button></a>
        </div>
 
        <div class="parot11">
@@ -167,7 +167,7 @@
           <p>Age: 3 months</p>
           <p>Breed: Beagle</p>
           <p>Friendly, playful, and great with kids. Loves long walks and cuddles.</p>
-          <button>Schedule Visit</button>
+          <a href="#schedule-form"><button>Schedule Visit</button></a>
        </div>
        <div class="parot12">
           <div class="parot-image12"></div>
@@ -175,8 +175,75 @@
           <p>Age: 2 Years</p>
           <p>Breed: Boxer</p>
           <p>Friendly, playful, and great with kids. Loves long walks and cuddles.</p>
-          <button>Schedule Visit</button>
+          <a href="#schedule-form"><button>Schedule Visit</button></a>
        </div>
     </div>
+
+    <div class="schedule-form" id="schedule-form">
+      <div class="schedule-formcontainer">
+            <form action="" class="secondform">
+               <h2>Schedule a Visit</h2>
+
+               <label for="text">Fullname</label>
+               <input type="text" placeholder="Name" required>
+
+               <label for="phone">Phone</label>
+               <input type="tel" placeholder="+234" required>
+
+               <label for="visit-datetime">Select Date & Time:</label>
+               <input type="datetime-local" id="visit-datetime" name="visit-datetime" required>
+
+               <label for="message">Message</label>
+               <textarea name="message" id=""></textarea>
+               <button class="sbt-btn">Submit</button>
+            </form>
+       </div>
+    </div>
+
+    <div class="footer" style="margin-top: 50px;">
+        <div class="footer1">
+          <h2>Furevercare</h2>
+          <p>
+            FureverCare is a pet-friendly space helping animals find loving
+            homes. We offer care tips and adoption support to make every pet’s
+            journey happy. Thanks for being part of our community!
+          </p>
+          <!-- <div class="footer-icons">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+          </div> -->
+          <div class="footer-logo">
+             <img src="images/furever-logo.png" alt="" style="width: 100px; padding-top: 5px;">
+          </div>
+        </div>
+        <div class="footer2">
+          <h2>Useful Links</h2>
+          <p><a href="">HOME</a></p>
+          <p><a href="">ABOUT</a></p>
+          <p><a href="">PRODUCT</a></p>
+          <p><a href="">CONTACT</a></p>
+          <p></p>
+          <p></p>
+          <p></p>
+        </div>
+
+        <div class="footer3">
+          <h2>Gallery</h2>
+          <p>Meet some of the adorable faces that make us smile.</p>
+          <div class="gallery">
+             <div class="gallery1"></div>
+             <div class="gallery2"></div>
+             <div class="gallery3"></div>
+          </div>
+
+          <div class="new-gallery">
+             <div class="new-gallery1"></div>
+             <div class="new-gallery2"></div>
+             <div class="new-gallery3"></div>
+          </div>
+        </div>
+      </div>
 </body>
 </html>
