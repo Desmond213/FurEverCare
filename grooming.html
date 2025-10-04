@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/703cd02033.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="nav__bar">
+      <div class="logo">
+        <img src="images/Furevercare.png" style="width: 60px; align-items: center; margin-top: 7px;">
+      </div>
+      <ul class="nav_links">
+        <li class="nav_link"><a href="#"> HOME</a></li>
+        <li class="nav_link"><a href="#AboutSection"> ABOUT</a></li>
+        <li class="nav_link"><a href="#productSection"> PRODUCT</a></li>
+        <li class="nav_link"><a href="#formSection"> CONTACT</a></li>
+      </ul>
+      <button class="bot">
+        <a href="signup.html">Sign Up</a>
+      </button>
+      <a href="#" class="nav__hamburger">
+        <span class="nav_hamburger_line"></span>
+        <span class="nav_hamburger_line"></span>
+        <span class="nav_hamburger_line"></span>
+      </a>
+    </nav>
+
+    <div class="hero-image">
+        <div class="gromhero-image1">
+           <h1>Groomed to Pawfection</h1>
+           <div class="grooming-btn">
+              <button class="groom-btn1">Book Now</button>
+              <button class="grooming-btn2"><i class="fa-solid fa-phone"></i>(555) 666-7788</button>
+           </div>
+        </div>
+    </div>
+
+    <div class="filter-category">
+         <div class="filter-container">
+            <h2>Filter by Category</h2>
+
+            <div class="the-pets">
+              <div class="topics">
+                  <h3>Topics</h3>
+                  <div class="the-topics">
+                     <a href="index.html#topcall-btn"><button class="filter-btn">All</button></a>
+                     <button>Health & Wellness</button>
+                     <button class="filter-btn active" id="grom-btn" style="border: none; outline: none;">Gromming</button>
+                     <button>Nutrition</button>
+                     <button>Training</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+    </div>
+
+    <div class="grooming-container">
+       <div class="groon-div1">
+          <div class="groon-img1">
+             <h2>Bath & Brush</h2>
+             <p><i class="fa-solid fa-circle-check"></i>Warm bath with pet-safe shampoo</p>
+             <p><i class="fa-solid fa-circle-check"></i>Optional coat conditioner for shine</p>
+             <p><i class="fa-solid fa-circle-check"></i>Gentle blow dry</p>
+             <p><i class="fa-solid fa-circle-check"></i>Full-body brushing</p>
+             <p><i class="fa-solid fa-circle-check"></i>Light detangling</p>
+             <div class="goonbt-div1">
+                <button>Learn More</button>
+             </div>
+          </div>
+          <div class="groon-img2">
+            <h2>Ear Cleaning</h2>
+            <p><i class="fa-solid fa-circle-check"></i>Outer ear cleaning</p>
+            <p><i class="fa-solid fa-circle-check"></i>Remove wax & debris</p>
+            <p><i class="fa-solid fa-circle-check"></i>Pluck ear hair</p>
+            <p><i class="fa-solid fa-circle-check"></i>Check for odor or redness</p>
+            <p><i class="fa-solid fa-circle-check"></i>Optional ear flush for chronic issues</p>
+          </div>
+       </div>
+
+       <div class="groon-div2">
+          <div class="groon-img3">
+             <h1>Our Grooming Services</h1>
+             <p>FureverCare keeps your dog clean, healthy, and stylish with gentle, professional grooming.</p>
+             <div class="goon-btn1">
+                <button>Schedule Grooming</button>
+             </div>
+          </div>
+          <div class="groon-img4">
+             <h2>De-shedding Treatment</h2>
+             <p><i class="fa-solid fa-circle-check"></i>Bath with de-shedding shampoo and conditioner</p>
+             <p><i class="fa-solid fa-circle-check"></i>High-velocity drying to loosen undercoat</p>
+             <p><i class="fa-solid fa-circle-check"></i>Brush-out with de-shedding tools</p>
+             <p><i class="fa-solid fa-circle-check"></i>Undercoat rake treatment for double-coats</p>
+             <p><i class="fa-solid fa-circle-check"></i>Coat check & shedding tips</p>
+          </div>
+       </div>
+
+       <div class="groon-div3">
+           <div class="goon-img5">
+              <h2>Haircut & Styling</h2>
+              <p><i class="fa-solid fa-circle-check"></i>Breed or custom haircut</p>
+              <p><i class="fa-solid fa-circle-check"></i>Trim around face, feet & sanitary areas</p>
+              <p><i class="fa-solid fa-circle-check"></i>Tail & ear trim</p>
+              <p><i class="fa-solid fa-circle-check"></i>Mat shaving</p>
+              <p><i class="fa-solid fa-circle-check"></i>Final comb & scissor styling</p>
+           </div>
+           <div class="goon-img6">
+            <h2>Nail Trimming & Paw Care</h2>
+            <p><i class="fa-solid fa-circle-check"></i>Nail clipping to a safe length</p>
+            <p><i class="fa-solid fa-circle-check"></i>Nail filing to smooth sharp edges</p>
+            <p><i class="fa-solid fa-circle-check"></i>Check for nail or paw injury</p>
+            <p><i class="fa-solid fa-circle-check"></i>Fur trimming between paw pads</p>
+            <p><i class="fa-solid fa-circle-check"></i>Moisturizing paw balm application</p>
+           </div>
+       </div>
+    </div>
+
+    <div class="schedule-container">
+        <form class="contact-left">
+           <div class="contactleft-title">
+              <h2>Schedule Visit</h2>
+              <hr>
+           </div>
+           <input type="text" name="name" placeholder="Fullname" class="schedule-inputs" required>
+           <input type="email" name="email" placeholder="Email" class="schedule-inputs" required style="border: 1px solid rgba(0, 0, 0, 0.315); border-radius: 5px; margin-bottom: 10px; padding-left: 8px;">
+           <input type="datetime-local" id="visit-datetime" name="visit-datetime" required>
+           <textarea name="message" placeholder="Your Message" required></textarea>
+           <button type="submit">Submit <i class="fa-solid fa-arrow-right"></i></button>
+        </form>
+    </div>
+</body>
+</html>

@@ -22,7 +22,7 @@
   </head>
   <body>
     <nav class="nav__bar">
-      <div class="logo">
+      <div class="logo" onclick="scrollToTop()">
         <img src="images/Furevercare.png" style="width: 60px; align-items: center; margin-top: 7px;">
       </div>
       <ul class="nav_links">
@@ -471,10 +471,10 @@
           <div class="filter-group">
             <h3>Topic</h3>
             <div class="filter-buttons">
-              <button class="filter-btn active">All</button>
+              <button class="filter-btn active" id="topcall-btn" style="border: none; outline: none;">All</button>
               <button class="filter-btn">Health & Wellness</button>
               <button class="filter-btn">Nutrition</button>
-              <button class="filter-btn">Grooming</button>
+              <a href="grooming.html#grom-btn"><button class="filter-btn">Grooming</button></a>
               <button class="filter-btn">Habitat</button>
               <button class="filter-btn">Training</button>
             </div>
@@ -754,11 +754,19 @@
         <p>Copyright © 2025, All Rights Reserved. Powered by DeviQ</p>
       </div>
       <a href="#hero" class="toggle"
-        ><i class="fa-solid fa-arrow-up" id="togo"></i
+        ><i class="fa-solid fa-shield-dog" id="togo"></i
       ></a>
     </div>
 
     <script>
+
+      function scrollToTop() {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      }
+
       const counters = document.querySelectorAll(".counter");
       const duration = 2000; // total animation time in ms
 
