@@ -164,7 +164,7 @@ a {
 .btn1 button {
   padding: 15px 40px;
   border: none;
-  background-color: #ec7e1c;
+ background: linear-gradient(270deg, #ff994f, #fa6d86);
   color: white;
   font-family: var(--mainfont); /* Corrected variable */
   border-radius: 5px;
@@ -246,7 +246,7 @@ a {
   height: 60px;
   width: 100%;
   max-width: 60px;
-  background-color: #ec7e1c;
+  background: linear-gradient(270deg, #ff994f, #fa6d86);
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -292,7 +292,7 @@ a {
   height: 60px;
   width: 100%;
   max-width: 60px;
-  background-color: #ec7e1c;
+  background: linear-gradient(270deg, #ff994f, #fa6d86);
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -338,7 +338,7 @@ a {
   height: 60px;
   width: 100%;
   max-width: 60px;
-  background-color: #ec7e1c;
+  background: linear-gradient(270deg, #ff994f, #fa6d86);
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -384,7 +384,7 @@ a {
   height: 60px;
   width: 100%;
   max-width: 60px;
-  background-color: #ec7e1c;
+  background: linear-gradient(270deg, #ff994f, #fa6d86);
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -541,7 +541,7 @@ a {
   button {
     padding: 10px 30px;
     border: none;
-    background-color: #ec7e1c;
+    background: linear-gradient(270deg, #ff994f, #fa6d86);
     color: white;
     font-family: var(---mainfont);
     border-top-left-radius: 10px;
@@ -631,7 +631,7 @@ a {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(270deg, #ff994f, #fa6d86);
     color: white;
     border: none;
     font-family: var(---mainfont);
@@ -680,7 +680,7 @@ a {
   button {
     /* margin-top: 15px; */
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(270deg, #ff994f, #fa6d86);
     color: white;
     border: none;
     font-family: var(---mainfont);
@@ -729,7 +729,7 @@ a {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(270deg, #ff994f, #fa6d86);
     color: white;
     border: none;
     font-family: var(---mainfont);
@@ -789,7 +789,7 @@ a {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(270deg, #ff994f, #fa6d86);
     color: white;
     border: none;
     font-family: var(---mainfont);
@@ -838,7 +838,7 @@ a {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(270deg, #ff994f, #fa6d86);
     color: white;
     border: none;
     font-family: var(---mainfont);
@@ -908,7 +908,7 @@ a {
 
 .marquess-style{
   font-family: var(---mainfont);
-  background-color: #ed770f;
+  background: linear-gradient(270deg, #ff994f, #fa6d86);
   color: white;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -938,7 +938,7 @@ a {
   button {
     padding: 10px 20px;
     border: none;
-    background-color: #ec7e1c;
+    background: linear-gradient(270deg, #ff994f, #fa6d86);
     color: white;
     margin-top: 10px;
     border-radius: 3px;
@@ -995,7 +995,7 @@ a {
   button {
     padding: 10px 20px;
     border: none;
-    background-color: #ec7e1c;
+    background: linear-gradient(270deg, #ff994f, #fa6d86);
     color: white;
     margin-top: 10px;
     border-radius: 3px;
@@ -1052,7 +1052,7 @@ a {
   button {
     padding: 10px 20px;
     border: none;
-    background-color: #ec7e1c;
+    background: linear-gradient(270deg, #ff994f, #fa6d86);
     color: white;
     margin-top: 10px;
     border-radius: 3px;
@@ -1232,6 +1232,7 @@ a {
 
   h4 {
     color: white;
+    font-family: var(---mainfont);
   }
 }
 
@@ -1245,6 +1246,7 @@ form {
 form label {
   display: block;
   margin-top: 15px;
+  color: white;
 }
 
 form input {
@@ -1256,13 +1258,14 @@ form input {
   font-size: 1rem;
   transition: all 0.2s ease;
   outline: none;
+  
 }
 
 form button {
   border: none;
-  margin-top: 15px;
-  padding: 7px 25px;
-  border-radius: 5px;
+  /* margin-top: 15px; */
+  padding: 10px 30px;
+  border-radius: 30px;
   background-color: white;
   color: #ec7e1c;
   font-weight: 600;
@@ -1307,7 +1310,7 @@ form button:hover {
   background-color: #ec7e1c;
   color: white;
   padding: 5px 10px;
-  border-radius: 12px;
+  border-radius: 30px;
   font-weight: bold;
   font-size: 14px;
   font-family: var(---mainfont);
@@ -1799,7 +1802,7 @@ form button:hover {
 .circle {
   width: 80px;
   height: 80px;
-  background-color: #ec7e1c;
+   background: linear-gradient(to right, #ec7e1c, #d7263d);
   border-radius: 50%;
   margin-bottom: 15px;
   align-items: center;
@@ -2226,7 +2229,7 @@ form button:hover {
   bottom: 20px;
   right: 20px;
   &:hover {
-    background: #ed770f;
+     background: linear-gradient(to right, #ec7e1c, #d7263d);
     cursor: pointer;
   }
 }
@@ -2395,11 +2398,11 @@ form button:hover {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
   }
 }
 
@@ -2443,11 +2446,11 @@ form button:hover {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
   }
 }
 
@@ -2490,11 +2493,11 @@ form button:hover {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
   }
 }
 
@@ -2549,11 +2552,11 @@ form button:hover {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
   }
 }
 
@@ -2597,11 +2600,11 @@ form button:hover {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
   }
 }
 
@@ -2645,11 +2648,11 @@ form button:hover {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
   }
 }
 
@@ -2704,11 +2707,11 @@ form button:hover {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
   }
 }
 
@@ -2752,11 +2755,11 @@ form button:hover {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
   }
 }
 
@@ -2800,11 +2803,11 @@ form button:hover {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
   }
 }
 
@@ -2859,11 +2862,11 @@ form button:hover {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
   }
 }
 
@@ -2907,11 +2910,11 @@ form button:hover {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
   }
 }
 
@@ -2955,11 +2958,11 @@ form button:hover {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
   }
 }
 
@@ -3100,11 +3103,11 @@ form button:hover {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
   }
 }
@@ -3149,11 +3152,11 @@ form button:hover {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
   }
 }
@@ -3198,11 +3201,11 @@ form button:hover {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
   }
 }
@@ -3258,11 +3261,10 @@ form button:hover {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
-    color: white;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
   }
 }
@@ -3307,11 +3309,11 @@ form button:hover {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
   }
 }
@@ -3356,11 +3358,11 @@ form button:hover {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
   }
 }
@@ -3416,11 +3418,11 @@ form button:hover {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
   }
 }
@@ -3465,11 +3467,11 @@ form button:hover {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
   }
 }
@@ -3514,11 +3516,11 @@ form button:hover {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
   }
 }
@@ -3574,11 +3576,11 @@ form button:hover {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
   }
 }
@@ -3623,11 +3625,11 @@ form button:hover {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
   }
 }
@@ -3672,11 +3674,11 @@ form button:hover {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
   }
 }
@@ -3711,7 +3713,7 @@ form button:hover {
   button{
     padding: 10px 30px;
     color: white;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     font-family: var(---mainfont);
   }
 }
@@ -3772,7 +3774,7 @@ textarea:focus {
   font-size: 15px;
   background-color: #fff;      /* Makes sure the background is visible */
   outline: none;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   transition: border-color 0.3s ease;
 }
 
@@ -3848,11 +3850,11 @@ textarea:focus {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
   }
 }
 
@@ -3896,11 +3898,11 @@ textarea:focus {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
   }
 }
 
@@ -3944,11 +3946,11 @@ textarea:focus {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
   }
 }
 
@@ -4003,11 +4005,11 @@ textarea:focus {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
   }
 }
 
@@ -4051,11 +4053,11 @@ textarea:focus {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
   }
 }
 
@@ -4099,11 +4101,11 @@ textarea:focus {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
   }
 }
 
@@ -4158,11 +4160,11 @@ textarea:focus {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
   }
 }
 
@@ -4206,11 +4208,11 @@ textarea:focus {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
   }
 }
 
@@ -4254,11 +4256,11 @@ textarea:focus {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
   }
 }
 
@@ -4313,11 +4315,11 @@ textarea:focus {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
   }
 }
 
@@ -4361,11 +4363,11 @@ textarea:focus {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
   }
 }
 
@@ -4409,11 +4411,11 @@ textarea:focus {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
   }
 }
 
@@ -4496,11 +4498,11 @@ textarea:focus {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
   }
 }
@@ -4545,11 +4547,11 @@ textarea:focus {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
   }
 }
@@ -4594,11 +4596,11 @@ textarea:focus {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
   }
 }
@@ -4654,11 +4656,11 @@ textarea:focus {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
   }
 }
@@ -4703,11 +4705,11 @@ textarea:focus {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
   }
 }
@@ -4752,11 +4754,11 @@ textarea:focus {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
   }
 }
@@ -4812,11 +4814,11 @@ textarea:focus {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
   }
 }
@@ -4861,11 +4863,11 @@ textarea:focus {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
   }
 }
@@ -4910,11 +4912,11 @@ textarea:focus {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
   }
 }
@@ -4970,11 +4972,11 @@ textarea:focus {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
   }
 }
@@ -5019,11 +5021,11 @@ textarea:focus {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
   }
 }
@@ -5068,11 +5070,11 @@ textarea:focus {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
   }
 }
