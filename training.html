@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/703cd02033.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <nav class="nav__bar">
@@ -38,7 +39,7 @@
         </div>
     </div>
 
-    <div class="filter-category">
+    <div class="filter-category"data-aos="fade-right">
          <div class="filter-container">
             <h2>Filter by Category</h2>
 
@@ -57,7 +58,7 @@
          </div>
     </div>
 
-    <div class="dog-parent">
+    <div class="dog-parent" data-aos="zoom-in">
          <h1>What our dog parents are saying</h1>
          <p>Verified customers. Real reviews</p>
          <div class="review1">
@@ -92,7 +93,8 @@
         </div>
     </div>
 
-    <div class="howto-train">
+    <div class="howto-train" data-aos="fade-up"
+     data-aos-duration="4000">
       <div class="trainflex">
          <div class="dogtrain-img"></div>
       </div>
@@ -113,5 +115,10 @@
         <button>Start Training Your Dog</button>
       </div>
     </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
 </body>
 </html>
