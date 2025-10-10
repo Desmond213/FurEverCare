@@ -657,7 +657,7 @@ a {
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
   }
 }
@@ -706,7 +706,7 @@ a {
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
   }
 }
@@ -755,7 +755,7 @@ a {
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
   }
 }
@@ -815,7 +815,7 @@ a {
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
   }
 }
@@ -864,7 +864,7 @@ a {
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
   }
 }
@@ -909,11 +909,11 @@ a {
   button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ed770f;
+    background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
   }
 }
