@@ -6,11 +6,12 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/703cd02033.js" crossorigin="anonymous"></script>
     <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <nav class="nav__bar">
       <div class="logo">
-        <img src="images/Furevercare.png" style="width: 60px; align-items: center; margin-top: 7px;">
+        <a href="index.html"><img src="images/Furevercare.png" style="width: 60px; align-items: center; margin-top: 7px;"></a>
       </div>
       <ul class="nav_links">
         <li class="nav_link"><a href="#"> HOME</a></li>
@@ -32,7 +33,7 @@
         <div class="gromhero-image1">
            <h1>Groomed to Pawfection</h1>
            <div class="grooming-btn">
-              <button class="groom-btn1">Book Now</button>
+              <a href="#gromschbtn"><button class="groom-btn1">Book Now</button></a>
               <button class="grooming-btn2"><i class="fa-solid fa-phone"></i>(555) 666-7788</button>
            </div>
         </div>
@@ -57,7 +58,8 @@
          </div>
     </div>
 
-    <div class="grooming-container">
+    <div class="grooming-container" data-aos="fade-up"
+     data-aos-duration="1000">
        <div class="groon-div1">
           <div class="groon-img1">
              <h2>Bath & Brush</h2>
@@ -85,7 +87,7 @@
              <h1>Our Grooming Services</h1>
              <p>FureverCare keeps your dog clean, healthy, and stylish with gentle, professional grooming.</p>
              <div class="goon-btn1">
-                <button>Schedule Grooming</button>
+                <a href="#gromschbtn"><button>Schedule Grooming</button></a>
              </div>
           </div>
           <div class="groon-img4">
@@ -118,10 +120,11 @@
        </div>
     </div>
 
-    <div class="schedule-container">
+    <div class="schedule-container" id="gromschbtn" data-aos="fade-up"
+     data-aos-duration="1000">
         <form class="contact-left">
            <div class="contactleft-title">
-              <h2>Schedule Visit</h2>
+              <h2>Schedule Grooming</h2>
               <hr>
            </div>
            <input type="text" name="name" placeholder="Fullname" class="schedule-inputs" required>
@@ -131,5 +134,56 @@
            <button type="submit">Submit <i class="fa-solid fa-arrow-right"></i></button>
         </form>
     </div>
+
+    <div class="footer" style="margin-top: 50px;">
+        <div class="footer1">
+          <h2>Furevercare</h2>
+          <p>
+            FureverCare is a pet-friendly space helping animals find loving
+            homes. We offer care tips and adoption support to make every pet’s
+            journey happy. Thanks for being part of our community!
+          </p>
+          <!-- <div class="footer-icons">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+          </div> -->
+          <div class="footer-logo">
+             <img src="images/furever-logo.png" alt="" style="width: 100px; padding-top: 5px;">
+          </div>
+        </div>
+        <div class="footer2">
+          <h2>Useful Links</h2>
+          <p><a href="">HOME</a></p>
+          <p><a href="">ABOUT</a></p>
+          <p><a href="">PRODUCT</a></p>
+          <p><a href="">CONTACT</a></p>
+          <p></p>
+          <p></p>
+          <p></p>
+        </div>
+
+        <div class="footer3">
+          <h2>Gallery</h2>
+          <p>Meet some of the adorable faces that make us smile.</p>
+          <div class="gallery">
+             <div class="gallery1"></div>
+             <div class="gallery2"></div>
+             <div class="gallery3"></div>
+          </div>
+
+          <div class="new-gallery">
+             <div class="new-gallery1"></div>
+             <div class="new-gallery2"></div>
+             <div class="new-gallery3"></div>
+          </div>
+        </div>
+      </div>
+
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+      AOS.init();
+      </script>
 </body>
 </html>

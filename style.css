@@ -35,7 +35,7 @@ a {
 
 .nav__bar {
   display: flex;
-  padding: 1rem 1.5rem 1rem 1.5rem;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
   display: flex;
   width: 90%;
   justify-content: space-between;
@@ -47,7 +47,7 @@ a {
   z-index: 99;
   margin: auto;
   position: sticky;
-  top: 30px;
+  top: 15px;
 }
 .logo {
   color: #ec7e1c;
@@ -5444,7 +5444,7 @@ textarea:focus {
 
 .contactleft-title hr{
   border: none;
-  width: 170px;
+  width: 235px;
   height: 5px;
   background: linear-gradient(270deg, #ff994f, #fa6d86);
   border-radius: 10px;
@@ -6293,6 +6293,175 @@ textarea:focus {
   border-bottom-right-radius: 20px;
 }
 
+.course-section{
+  margin-top: 30px;
+  margin-bottom: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+
+.course1{
+  /* height: 290px; */
+  width: 100%;
+  max-width: 320px;
+  border: 1px solid #0003;
+  border-radius: 20px;
+  padding: 20px 10px;
+
+  h2{
+    font-family: var(---mainfont);
+    font-weight: 400;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  p{
+   font-family: var(---mainfont);
+   text-align: center;
+   font-weight: 300;
+   font-size: 15px;
+   padding-top: 10px;
+  }
+}
+
+.courseimage1{
+  height: 100px;
+  width: 100%;
+  max-width: 100px;
+  background-color: #12333C;
+  border-radius: 50%;
+  /* margin-top: 10px; */
+  background-image: url(/images/letsee.svg);
+}
+
+.course2{
+  /* height: 290px; */
+  width: 100%;
+  max-width: 320px;
+  border: 1px solid #0003;
+  border-radius: 20px;
+  padding: 20px 10px;
+
+  h2{
+    font-family: var(---mainfont);
+    font-weight: 400;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  p{
+   font-family: var(---mainfont);
+   text-align: center;
+   font-weight: 300;
+   font-size: 15px;
+   padding-top: 10px;
+  }
+}
+
+.courseimage2{
+  height: 100px;
+  width: 100%;
+  max-width: 100px;
+  background-color: #12333C;
+  border-radius: 50%;
+  /* margin-top: 10px; */
+  background-image: url(/images/letseee2.svg);
+  background-size: cover;
+  
+}
+
+.course3{
+  /* height: 290px; */
+  width: 100%;
+  max-width: 320px;
+  border: 1px solid #0003;
+  border-radius: 20px;
+  padding: 20px 10px;
+
+  h2{
+    font-family: var(---mainfont);
+    font-weight: 400;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  p{
+   font-family: var(---mainfont);
+   text-align: center;
+   font-weight: 300;
+   font-size: 15px;
+   padding-top: 10px;
+  }
+}
+
+.courseimage3{
+  height: 100px;
+  width: 100%;
+  max-width: 100px;
+  background-color: #12333C;
+  border-radius: 50%;
+  /* margin-top: 10px; */
+  background-image: url(/images/letsee3.svg);
+  background-size: cover;
+}
+
+.faq-container {
+      padding-left: 20px;
+      padding-right: 20px;
+      max-width: 700px;
+      margin: auto;
+      margin-top: 30px;
+      
+
+      h1{
+        text-align: center;
+        font-family: var(---mainfont);
+        font-weight: 500;
+        padding-bottom: 20px;
+      }
+    }
+
+    .faq-item {
+      background-color: white;
+      border: 1px solid #ddd;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+
+    .faq-question {
+      padding: 15px 20px;
+      cursor: pointer;
+      font-weight: bold;
+      background-color: #eee;
+      transition: background 0.3s;
+      font-family: var(---mainfont);
+      font-weight: 400;
+    }
+
+    .faq-question:hover {
+      background-color: #ddd;
+    }
+
+    .faq-answer {
+      padding: 0 20px;
+      max-height: 0;
+      overflow: hidden;
+      background-color: #f9f9f9;
+      transition: max-height 0.3s ease;
+      font-family: var(---mainfont);
+      font-weight: 300;
+      font-size: 14px;
+    }
+
+    .faq-answer.open {
+      padding: 15px 20px;
+      max-height: 300px; /* adjust if needed */
+    }
+
 
 
 /* training ends */
@@ -6313,6 +6482,62 @@ textarea:focus {
   /* .grooming-container{
     flex-wrap: wrap;
   } */
+}
+
+@media (max-width: 906px) {
+  .course1{
+    h2{
+      font-size: 20px;
+    }
+
+    p{
+      font-size: 14px;
+    }
+  }
+
+  .courseimage1{
+    height: 80px;
+    width: 100%;
+    max-width: 80px;
+  }
+
+  .course2{
+    h2{
+      font-size: 20px;
+    }
+
+    p{
+      font-size: 14px;
+    }
+  }
+
+  .courseimage2{
+    height: 80px;
+    width: 100%;
+    max-width: 80px;
+  }
+
+  .course3{
+    h2{
+      font-size: 20px;
+    }
+
+    p{
+      font-size: 14px;
+    }
+  }
+
+  .courseimage3{
+    height: 80px;
+    width: 100%;
+    max-width: 80px;
+  }
+}
+
+@media (max-width: 841px) {
+  .course-section{
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 982px) {
@@ -7531,6 +7756,18 @@ textarea:focus {
 }
 
 .trainhero-image1{
+  h1{
+    font-size: 40px;
+  }
+}
+
+.faq-container{
+  h1{
+    font-size: 30px;
+  }
+}
+
+.gromhero-image1{
   h1{
     font-size: 40px;
   }
