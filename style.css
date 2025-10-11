@@ -26,7 +26,12 @@ body {
 
 /* navbar styling start */
 
-ul {
+.nav_links ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 a {
@@ -35,19 +40,12 @@ a {
 
 .nav__bar {
   display: flex;
-  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
-  display: flex;
-  width: 90%;
-  justify-content: space-between;
   align-items: center;
-  border-radius: 3rem;
+  justify-content: space-between;
+  padding: 0.5rem 1.5rem;
   background-color: white;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin-top: 3%;
-  z-index: 99;
-  margin: auto;
-  position: sticky;
-  top: 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  position: relative;
 }
 .logo {
   color: #ec7e1c;
@@ -76,49 +74,40 @@ a {
   border-bottom: 2px solid #ec7e1c;
 }
 
+
 .bot {
-  display: block;
-  padding: 0.7rem 1.4rem;
   background: linear-gradient(135deg, #ec7e1c, #ffb347);
-  color: #fff;
-  font-size: 1.2rem;
-  font-weight: 600;
   border: none;
   border-radius: 30px;
-  box-shadow: 0 2px 8px rgba(36, 45, 61, 0.1);
+  padding: 0.4rem 2rem;
   cursor: pointer;
-  transition: background 0.3s, transform 0.2s, box-shadow 0.2s;
+  transition: background 0.3s ease;
+  margin-left: 20px;
 }
 .bot > a {
-  color: #fff;
+ color: white;
+  text-decoration: none;
+  font-weight: 600;
 }
 .bot:hover {
   background: linear-gradient(135deg, #ffb347, #ec7e1c);
-  transform: translateY(-2px) scale(1.04);
-  box-shadow: 0 4px 16px rgba(36, 45, 61, 0.18);
 }
+
 .nav__hamburger {
-  height: 1.313rem;
-  width: 1.875rem;
   display: none;
   flex-direction: column;
   justify-content: space-around;
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  align-items: center;
-  color: black;
-  margin-right: 12px;
-  margin-top: 18px;
-  align-items: center;
+  width: 25px;
+  height: 20px;
+  cursor: pointer;
+  z-index: 101; /* above menu */
 }
 
 .nav_hamburger_line {
-  height: 0.188rem;
   width: 100%;
+  height: 3px;
   background-color: black;
-  border-radius: 0.625rem;
-  transition: all ease-in-out 0.2s;
+  border-radius: 2px;
 }
 
 /* navbar styling end */
@@ -171,6 +160,11 @@ a {
   cursor: pointer;
   transition: background 0.3s ease;
   border-radius: 30px;
+  transition: 
+    background 0.4s ease-in-out,
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  will-change: transform, box-shadow;
 }
 
 #readmore-icon{
@@ -179,7 +173,9 @@ a {
 }
 
 .btn1 button:hover {
-  background-color: #333;
+  background: linear-gradient(270deg, #fa6d86, #ff994f); 
+  transform: translateY(-3px); 
+  box-shadow: 0 8px 20px rgba(250, 109, 134, 0.3); 
 }
 
 /* Image container */
@@ -218,6 +214,7 @@ a {
   border-top-right-radius: 50%;
   background-image: url(/images/dog4.jpg);
 }
+
 
 .schedule-section {
   width: 100%;
@@ -1652,6 +1649,16 @@ form button:hover {
     font-size: 45px;
     font-family: var(---mainfont);
   }
+
+  hr{
+    border: none;
+    width: 100%;
+    max-width: 343px;
+    height: 5px;
+    background: linear-gradient(270deg, #ff994f, #fa6d86);
+    border-radius: 10px;
+  
+  }
 }
 
 .the-pctures {
@@ -2175,7 +2182,7 @@ form button:hover {
 .article-content p {
   color: var(--light-text);
   margin-bottom: 15px;
-   font-family: var(---mainfont);
+  font-family: var(---mainfont);
    font-size: 13px;
 }
 .tags {
@@ -2188,7 +2195,7 @@ form button:hover {
 .article-tag {
   display: inline-block;
   padding: 8px 15px;
-  border-radius: 20px;
+  border-radius: 40px;
   font-size: 0.8rem;
   font-weight: bold;
   color: white;
@@ -2264,7 +2271,7 @@ form button:hover {
   background-image: url(/images/park-dog.jpg);
   background-size: cover;
   background-position: center;
-  margin-top: -100px;
+  /* margin-top: -100px; */
   position: relative;
   z-index: 1;
   background-blend-mode: multiply;
@@ -3067,7 +3074,6 @@ form button:hover {
   background-image: url(/images/catts1.jpg);
   background-size: cover;
   background-position: center;
-  margin-top: -100px;
   position: relative;
   z-index: 1;
   background-blend-mode: multiply;
@@ -5119,7 +5125,7 @@ textarea:focus {
   background-image: url(/images/dog-groom.jpg);
   background-size: cover;
   background-position: center;
-  margin-top: -100px;
+  /* margin-top: -100px; */
   position: relative;
   z-index: 1;
   background-blend-mode: multiply;
@@ -6693,21 +6699,49 @@ textarea:focus {
 }
 
 @media (max-width: 768px) {
-  .nav_links {
-    display: none;
-  }
-  .bot {
-    display: none;
-  }
-  #menu-message a {
-    color: #ec7e1c;
-  }
-  #menu-message .bot {
-    display: inline-block !important;
-  }
   .nav__hamburger {
     display: flex;
   }
+
+  .nav_links {
+    position: fixed;
+    top: 0;
+    right: -50%;
+    width: 50%;
+    height: 100vh;
+    background-color: white;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    gap: 2rem;
+    box-shadow: -2px 0 10px rgba(0,0,0,0.1);
+    transition: right 0.3s ease;
+    z-index: 100;
+    padding-top: 60px;
+  }
+
+  .nav_links.active {
+    right: 0;
+  }
+
+  /* Make list vertical */
+  .nav_links ul {
+    display: block !important; /* override any flex */
+    padding-left: 0; /* remove default ul padding */
+  }
+
+  .nav_links ul li {
+    margin-bottom: 1rem;
+  }
+
+  /* Sign Up button full width */
+  .bot {
+    width: auto;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    margin-left: 0px;       /* remove left margin to avoid extra space */
+    font-size: 1rem;
+  }
+
 
   .the-pctures {
     flex-wrap: wrap;
@@ -7587,6 +7621,12 @@ textarea:focus {
     }
   }
 
+  .gallery-section{
+    h2{
+      font-size: 40px;
+    }
+  }
+
   .option1 {
     h2 {
       font-size: 21px;
@@ -7770,6 +7810,26 @@ textarea:focus {
 .gromhero-image1{
   h1{
     font-size: 40px;
+  }
+}
+
+.gallery-section {
+  text-align: center;
+  margin-top: 50px;
+
+  h2 {
+    font-size: 40px;
+    font-family: var(---mainfont);
+  }
+
+  hr{
+    border: none;
+    width: 100%;
+    max-width: 300px;
+    height: 5px;
+    background: linear-gradient(270deg, #ff994f, #fa6d86);
+    border-radius: 10px;
+  
   }
 }
 

@@ -10,24 +10,28 @@
 </head>
 <body>
     <nav class="nav__bar">
-      <div class="logo">
+      <div class="logo" onclick="scrollToTop()">
         <a href="index.html"><img src="images/Furevercare.png" style="width: 60px; align-items: center; margin-top: 7px;"></a>
       </div>
-      <ul class="nav_links">
-        <li class="nav_link"><a href="#"> HOME</a></li>
-        <li class="nav_link"><a href="#AboutSection"> ABOUT</a></li>
-        <li class="nav_link"><a href="#productSection"> PRODUCT</a></li>
-        <li class="nav_link"><a href="#formSection"> CONTACT</a></li>
-      </ul>
-      <button class="bot">
-        <a href="signup.html">Sign Up</a>
-      </button>
+
       <a href="#" class="nav__hamburger">
         <span class="nav_hamburger_line"></span>
         <span class="nav_hamburger_line"></span>
         <span class="nav_hamburger_line"></span>
       </a>
-    </nav>
+
+      <div class="nav_links">
+        <ul>
+          <li class="nav_link"><a href="#"> Home</a></li>
+          <li class="nav_link"><a href="#AboutSection"> About</a></li>
+          <li class="nav_link"><a href="#productSection"> Product</a></li>
+          <li class="nav_link"><a href="#formSection"> Contact</a></li>
+        </ul>
+        <button class="bot">
+          <a href="signup.html">Sign Up</a>
+        </button>
+      </div>
+    </nav> 
 
     <div class="hero-image">
         <div class="gromhero-image1">
@@ -184,6 +188,61 @@
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <script>
       AOS.init();
+      </script>
+      <script>
+         const hamburger = document.querySelector(".nav__hamburger");
+      const linksContainer = document.querySelector(".nav_links");
+      const links = document.querySelectorAll(".nav_link");
+      const menuMessage = document.getElementById("menu-message");
+
+      function updateMenuMessage() {
+        if (linksContainer.classList.contains("active")) {
+          menuMessage.innerHTML = `
+      <a href="#"> Home</a><br> 
+      <a href="#AboutSection"> About</a> <br>
+      <a href="#productSection"> Product</a><br>
+      <a href="#formSection"> Contact</a><br>
+      <button class="bot"> <a href="signup.html">Sign Up</a></button>
+    `;
+        } else {
+          menuMessage.innerHTML = "";
+        }
+      }
+
+      hamburger.addEventListener("click", () => {
+        linksContainer.classList.toggle("active");
+        hamburger.classList.toggle("active");
+        updateMenuMessage();
+      });
+
+      window.addEventListener("resize", () => {
+        if (window.innerWidth > 750) {
+          linksContainer.classList.remove("active");
+          hamburger.classList.remove("active");
+          updateMenuMessage();
+        } else {
+          closeMenu();
+          updateMenuMessage();
+        }
+      });
+      // On initial load, ensure menu is closed if above 750px
+      if (window.innerWidth > 750) {
+        linksContainer.classList.remove("active");
+        hamburger.classList.remove("active");
+        updateMenuMessage();
+      } else {
+        closeMenu();
+        updateMenuMessage();
+      }
+      function closeMenu() {
+        links.forEach((link) => {
+          link.addEventListener("click", () => {
+            linksContainer.classList.remove("active");
+            hamburger.classList.remove("active");
+            updateMenuMessage();
+          });
+        });
+      }
       </script>
 </body>
 </html>

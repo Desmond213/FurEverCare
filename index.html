@@ -18,37 +18,35 @@
       src="https://kit.fontawesome.com/703cd02033.js"
       crossorigin="anonymous"
     ></script>
+    
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    
     <nav class="nav__bar">
       <div class="logo" onclick="scrollToTop()">
         <img src="images/Furevercare.png" style="width: 60px; align-items: center; margin-top: 7px;">
       </div>
-      <ul class="nav_links">
-        <li class="nav_link"><a href="#"> HOME</a></li>
-        <li class="nav_link"><a href="#AboutSection"> ABOUT</a></li>
-        <li class="nav_link"><a href="#productSection"> PRODUCT</a></li>
-        <li class="nav_link"><a href="#formSection"> CONTACT</a></li>
-      </ul>
-      <button class="bot">
-        <a href="signup.html">Sign Up</a>
-      </button>
+
       <a href="#" class="nav__hamburger">
         <span class="nav_hamburger_line"></span>
         <span class="nav_hamburger_line"></span>
         <span class="nav_hamburger_line"></span>
       </a>
-    </nav>
-    <div
-      id="menu-message"
-      style="
-        text-align: center;
-        font-size: 1.5rem;
-        margin-top: 0;
-        color: #ec7e1c;
-      "
-    ></div>
+
+      <div class="nav_links">
+        <ul>
+          <li class="nav_link"><a href="#"> Home</a></li>
+          <li class="nav_link"><a href="#AboutSection"> About</a></li>
+          <li class="nav_link"><a href="#productSection"> Product</a></li>
+          <li class="nav_link"><a href="#formSection"> Contact</a></li>
+        </ul>
+        <button class="bot">
+          <a href="signup.html">Sign Up</a>
+        </button>
+      </div>
+    </nav> 
+    
     <div class="containerBody">
       <br />
       <br />
@@ -409,6 +407,9 @@
       <section id="GallerySection" class="gallery-section" data-aos="fade-up"
        data-aos-duration="1000">
         <h2>Our Pet Gallery</h2>
+        <div style="display: flex; justify-content: center;">
+         <hr>
+        </div>
         <div class="the-pctures">
           <div class="picturee1"></div>
           <div class="picturee2"></div>
@@ -486,7 +487,7 @@
               <a href="wellness.html#wellness-btn"><button class="filter-btn">Health & Wellness</button></a>
               <a href="nutrition.html#nutri-btn"><button class="filter-btn">Nutrition</button></a>
               <a href="grooming.html#grom-btn"><button class="filter-btn">Grooming</button></a>
-              <button class="filter-btn">Habitat</button>
+              <!-- <button class="filter-btn">Habitat</button> -->
               <a href="training.html#train-btn"><button class="filter-btn">Training</button></a>
             </div>
           </div>
@@ -503,8 +504,8 @@
                 healthy eating routine.
               </p>
               <div class="tags">
-                <span class="article-tag dog-tag">Dogs</span>
-                <span class="article-tag nutrition-tag">Nutrition</span>
+                <a href="dogs.html"><span class="article-tag dog-tag">Dogs</span></a>
+                <a href="grooming.html"><span class="article-tag nutrition-tag">Grooming</span></a>
               </div>
             </div>
           </article>
@@ -518,8 +519,8 @@
                 th stress
               </p>
               <div class="tags">
-                <span class="article-tag cat-tag">Dogs</span>
-                <span class="article-tag grooming-tag">Grooming</span>
+                <a href="cats.html"><span class="article-tag cat-tag">Cats</span></a>
+                <a href="nutrition.html"><span class="article-tag grooming-tag">Nutrition</span></a>
               </div>
             </div>
           </article>
@@ -533,7 +534,7 @@
                 and words.
               </p>
               <div class="tags">
-                <span class="article-tag parrot-tag">Parrots</span>
+                <a href="parot.html"><span class="article-tag parrot-tag">Parrots</span></a>
                 <span class="article-tag training-tag">Training</span>
               </div>
             </div>
@@ -875,5 +876,6 @@
     <script>
       AOS.init();
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
