@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/703cd02033.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="images/Furevercare.png" alt="">
+        </div>
+
+        <ul id="menulist">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="pets.html">Pets</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="menu">
+           <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+        </div>
+    </nav>
+
+    <div class="contacthero-image">
+        <div class="contacthero-image1">
+           <h1>Contact Us</h1>
+           <p>We’d love to hear from you — whether you have a question, need help, or just want to talk about your furry friend.</p>
+        </div>
+    </div>
+
+    <section id="formSection">
+        <div class="form-container" id="contact">
+          <div class="left-side" data-aos="fade-right">
+            <h4>Let's get in touch</h4>
+            <p>
+              Have a question or need help with your pet? We’re here for you —
+              just drop us a message!
+            </p>
+            <p>
+              <i class="fa-solid fa-address-card" id="contact-icon1"></i>No 6B
+              Cherry drive, Lagos Nigeria
+            </p>
+            <p>
+              <i class="fa-solid fa-envelope" id="contact-icon1"></i
+              >furevercare.info@gmail.com
+            </p>
+            <p>
+              <i class="fa-solid fa-phone" id="contact-icon1"></i>+234 903 715
+              5472
+            </p>
+            <p>Connect with us:</p>
+            <div class="iconformargin">
+              <i class="fa-brands fa-square-facebook" id="contact-icon2"></i>
+              <i class="fa-brands fa-square-twitter" id="contact-icon2"></i>
+              <i class="fa-brands fa-instagram" id="contact-icon2"></i>
+            </div>
+          </div>
+
+          <div class="right-side" data-aos="fade-left">
+            <h4>Contact Us</h4>
+            <form action="https://formspree.io/f/mpwlnddr" method="POST">
+              <label>
+                Fullname
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="johndoe" required
+                />
+              </label>
+
+              <label>
+                Phone:
+                <input type="tel" name="phone" placeholder="+234" required />
+              </label>
+
+              <label>
+                Email
+                <input type="email" name="email" placeholder="johndoe@example.com" required />
+              </label>
+
+              <label>
+                
+                <input
+                  type="text"
+                  name="address"
+                  placeholder="Your message"
+                  id="message-input"
+                />
+              </label>
+
+              <button type="submit">Send</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <div class="map-section">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31708.259158815956!2d3.3697464572998204!3d6.580538459915459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1757680641824!5m2!1sen!2sng"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+
+      <div class="footer">
+        <div class="footer1">
+          <h2>Furevercare</h2>
+          <p>
+            FureverCare is a pet-friendly space helping animals find loving
+            homes. We offer care tips and adoption support to make every pet’s
+            journey happy. Thanks for being part of our community!
+          </p>
+          <!-- <div class="footer-icons">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+          </div> -->
+          <div class="footer-logo">
+             <img src="images/furever-logo.png" alt="" style="width: 100px; padding-top: 5px;">
+          </div>
+        </div>
+        <div class="footer2">
+          <h2>Useful Links</h2>
+          <p><a href="">HOME</a></p>
+          <p><a href="">ABOUT</a></p>
+          <p><a href="">PRODUCT</a></p>
+          <p><a href="">CONTACT</a></p>
+          <p></p>
+          <p></p>
+          <p></p>
+        </div>
+
+        <div class="footer3">
+          <h2>Gallery</h2>
+          <p>Meet some of the adorable faces that make us smile.</p>
+          <div class="gallery">
+             <div class="gallery1"></div>
+             <div class="gallery2"></div>
+             <div class="gallery3"></div>
+          </div>
+
+          <div class="new-gallery">
+             <div class="new-gallery1"></div>
+             <div class="new-gallery2"></div>
+             <div class="new-gallery3"></div>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        let menulist = document.getElementById("menulist"); // Corrected id here
+
+        menulist.style.maxHeight = "0px";
+
+        function toggleMenu() {
+            if (menulist.style.maxHeight === "0px") {
+                menulist.style.maxHeight = "300px";
+            } else {
+                menulist.style.maxHeight = "0px";
+            }
+        }
+      </script>
+</body>
+</html>

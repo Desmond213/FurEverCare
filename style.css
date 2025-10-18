@@ -26,7 +26,7 @@ body {
 
 /* navbar styling start */
 
-.nav_links ul {
+/* .nav_links ul {
   list-style: none;
   display: flex;
   gap: 1.5rem;
@@ -100,7 +100,7 @@ a {
   width: 25px;
   height: 20px;
   cursor: pointer;
-  z-index: 101; /* above menu */
+  z-index: 101; 
 }
 
 .nav_hamburger_line {
@@ -108,6 +108,47 @@ a {
   height: 3px;
   background-color: black;
   border-radius: 2px;
+} */
+
+.navbar{
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 75px;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.logo img{
+    width: 80px;
+    padding-top: 8px;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li{
+    list-style-type: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #ec7e1c;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu{
+    display: none;
+}
+
+.menu i{
+    color: #ec7e1c;
+    font-size: 30px;
 }
 
 /* navbar styling end */
@@ -226,6 +267,601 @@ a {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
+
+
+/* testimonial-section start */
+.testimonial-container{
+  width: 100%;
+  /* min-height: 70vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: green; */
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.testimonial{
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  /* background-color: red; */
+  margin-bottom: 50px;
+}
+
+.testmonial-text{
+  width: 100%;
+  max-width: 650px;
+  background-color: #ff994f;
+  box-shadow: 0 4px 12px rgba(255, 153, 79, 0.4);
+  border-radius: 20px;
+  margin: auto;
+  padding-bottom: 40px;
+  /* height: 300px; */
+}
+
+.user-text{
+   padding-left: 10px;
+   padding-right: 10px; 
+   text-align: center;
+
+   p{
+    font-family: var(---mainfont);
+    color: white;
+   }
+
+  i{
+    color: white;
+    font-size: 30px;
+  }
+}
+
+
+
+.user-text span{
+  display: block;
+  color: white;
+  padding-top: 20px;
+  font-size: 13px;
+  font-family: var(---mainfont);
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.ourimg-one{
+  height: 50px;
+  width: 50px;
+  background-image: url(/images/test-img2.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  border: 1.5px solid white;
+}
+
+.testmonial-text2{
+  width: 100%;
+  max-width: 650px;
+  background-color: #ff994f;
+  box-shadow: 0 4px 12px rgba(255, 153, 79, 0.4);
+  border-radius: 20px;
+  margin: auto;
+  padding-bottom: 40px;
+  margin-top: 20px;
+}
+
+.user-text2{
+  padding-left: 10px;
+   padding-right: 10px; 
+   text-align: center;
+
+   p{
+    font-family: var(---mainfont);
+    color: white;
+   }
+
+  i{
+    color: white;
+    font-size: 30px;
+  }
+}
+
+.ourimg-one2{
+  height: 50px;
+  width: 50px;
+  background-image: url(/images/testimonial-img21.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  border: 1.5px solid white;
+}
+
+.user-text2 span{
+  display: block;
+  color: white;
+  padding-top: 20px;
+  font-size: 13px;
+  font-family: var(---mainfont);
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.testmonial-text3{
+  width: 100%;
+  max-width: 650px;
+  background-color: #ff994f;
+  box-shadow: 0 4px 12px rgba(255, 153, 79, 0.4);
+  border-radius: 20px;
+  margin: auto;
+  padding-bottom: 40px;
+  margin-top: 20px;
+}
+
+.user-text3{
+  padding-left: 10px;
+   padding-right: 10px; 
+   text-align: center;
+
+   p{
+    font-family: var(---mainfont);
+    color: white;
+   }
+
+  i{
+    color: white;
+    font-size: 30px;
+  }
+}
+
+.user-text3 span{
+  display: block;
+  color: white;
+  padding-top: 20px;
+  font-size: 13px;
+  font-family: var(---mainfont);
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+
+
+.tetim-btn{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+
+  button{
+    padding: 15px 40px;
+  border: none;
+  background: linear-gradient(270deg, #ff994f, #fa6d86);
+  color: white;
+  font-family: var(---mainfont);
+  border-radius: 5px;
+  cursor: pointer;
+  border-radius: 30px;
+  }
+}
+
+.ourimg-one3{
+  height: 50px;
+  width: 50px;
+  background-image: url(/images/free.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  border: 1.5px solid white;
+}
+
+.testmonial-text4{
+  width: 100%;
+  max-width: 650px;
+  background-color: #ff994f;
+  box-shadow: 0 4px 12px rgba(255, 153, 79, 0.4);
+  border-radius: 20px;
+  margin: auto;
+  padding-bottom: 40px;
+  margin-top: 20px;
+}
+
+.user-text4{
+  padding-left: 10px;
+   padding-right: 10px; 
+   text-align: center;
+
+   p{
+    font-family: var(---mainfont);
+    color: white;
+   }
+
+  i{
+    color: white;
+    font-size: 30px;
+  }
+}
+
+.ourimg-one4{
+  height: 50px;
+  width: 50px;
+  background-image: url(/images/ourtest1.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  border: 1.5px solid white;
+}
+
+.user-text4 span{
+  display: block;
+  color: white;
+  padding-top: 20px;
+  font-size: 13px;
+  font-family: var(---mainfont);
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.testmonial-text5{
+  width: 100%;
+  max-width: 650px;
+  background-color: #ff994f;
+  box-shadow: 0 4px 12px rgba(255, 153, 79, 0.4);
+  border-radius: 20px;
+  margin: auto;
+  padding-bottom: 40px;
+  margin-top: 20px;
+}
+
+.user-text5{
+  padding-left: 10px;
+   padding-right: 10px; 
+   text-align: center;
+
+   p{
+    font-family: var(---mainfont);
+    color: white;
+   }
+
+  i{
+    color: white;
+    font-size: 30px;
+  }
+}
+
+.user-text5 span{
+  display: block;
+  color: white;
+  padding-top: 20px;
+  font-size: 13px;
+  font-family: var(---mainfont);
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.ourimg-one5{
+  height: 50px;
+  width: 50px;
+  background-image: url(/images/catowner.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  border: 1.5px solid white;
+}
+
+.testmonial-text6{
+  width: 100%;
+  max-width: 650px;
+  background-color: #ff994f;
+  box-shadow: 0 4px 12px rgba(255, 153, 79, 0.4);
+  border-radius: 20px;
+  margin: auto;
+  padding-bottom: 40px;
+  margin-top: 20px;
+}
+
+.user-text6{
+  padding-left: 10px;
+   padding-right: 10px; 
+   text-align: center;
+
+   p{
+    font-family: var(---mainfont);
+    color: white;
+   }
+
+  i{
+    color: white;
+    font-size: 30px;
+  }
+}
+
+.user-text6 span{
+  display: block;
+  color: white;
+  padding-top: 20px;
+  font-size: 13px;
+  font-family: var(---mainfont);
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.ourimg-one6{
+  height: 50px;
+  width: 50px;
+  background-image: url(/images/rabbitowner.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  border: 1.5px solid white;
+}
+
+.testmonial-text7{
+  width: 100%;
+  max-width: 650px;
+  background-color: #ff994f;
+  box-shadow: 0 4px 12px rgba(255, 153, 79, 0.4);
+  border-radius: 20px;
+  margin: auto;
+  padding-bottom: 40px;
+  margin-top: 20px;
+}
+
+.user-text7{
+  padding-left: 10px;
+   padding-right: 10px; 
+   text-align: center;
+
+   p{
+    font-family: var(---mainfont);
+    color: white;
+   }
+
+  i{
+    color: white;
+    font-size: 30px;
+  }
+}
+
+.user-text7 span{
+  display: block;
+  color: white;
+  padding-top: 20px;
+  font-size: 13px;
+  font-family: var(---mainfont);
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.ourimg-one7{
+  height: 50px;
+  width: 50px;
+  background-image: url(/images/parotowner.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  border: 1.5px solid white;
+}
+
+
+.our-story{
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.story1{
+  padding-bottom: 10px;
+  width: 100%;
+  max-width: 500px;
+  background-color: white;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+
+  h2{
+    font-family: var(---mainfont);
+    font-weight: 500;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
+    color: #ed770f;
+  }
+
+  p{
+    font-family: var(---mainfont);
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    padding-top: 10px;
+  }
+
+  p i{
+    padding-right: 5px;
+    color: #ed770f;
+  }
+
+}
+
+.story-icons{
+  height: 250px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-image: url(/images/ourmissionimg1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+.story2{
+  width: 100%;
+  max-width: 500px;
+  background-color: white;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding-bottom: 10px;
+
+  h2{
+    color: #ed770f;
+    font-family: var(---mainfont);
+    font-weight: 500;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+  }
+
+  p{
+    font-family: var(---mainfont);
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    padding-top: 10px;
+  }
+}
+
+.story-icons2{
+  height: 250px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-image: url(/images/number1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.ourhtag{
+  h1{
+    text-align: center;
+    font-family: var(---mainfont);
+    font-weight: 600;
+    color: #ed770f;
+  }
+}
+
+.furteamsection{
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.furteam1{
+  width: 100%;
+  max-width: 292px;
+  background-color: white;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+
+   p{
+    font-family: var(---mainfont);
+    padding-top: 8px;
+  }
+}
+
+.furcircle{
+  height: 80px;
+  width: 100%;
+  max-width: 80px;
+  background-image: url(/images/founder.jpg);
+  background-size: cover;
+  border: 2px solid #ed770f;
+  border-radius: 50%;
+}
+
+.furcircle1{
+  height: 80px;
+  width: 100%;
+  max-width: 80px;
+  background-image: url(/images/specialist.jpg);
+  background-size: cover;
+  border: 2px solid #ed770f;
+  border-radius: 50%;
+}
+
+.furcircle2{
+  height: 80px;
+  width: 100%;
+  max-width: 80px;
+  background-image: url(/images/photographerr.jpg);
+  background-size: cover;
+  border: 2px solid #ed770f;
+  border-radius: 50%;
+}
+
+.furcircle3{
+  height: 80px;
+  width: 100%;
+  max-width: 80px;
+  background-image: url(/images/photographerr.jpg);
+  background-size: cover;
+  border: 2px solid #ed770f;
+  border-radius: 50%;
+}
+
+
+/* testimonial ends */
+
+/* pets page starts */
+.pet-hero{
+  width: 100%;
+  height: 400px;
+  background-image: url(/images/ourpet5.jpg);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.687);
+
+  h1{
+    text-align: center;
+    padding-top: 170px;
+    color: #ed770f;
+    font-family: var(---mainfont);
+  }
+
+  p{
+    text-align: center;
+    font-family: var(---mainfont);
+    color: white;
+  }
+}
+/* pet page ends */
+
+/* contact page start */
+.contacthero-image1{
+  height: 400px;
+  width: 100%;
+  background-image: url(/images/contact-usimg3.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.687);
+
+  h1{
+    text-align: center;
+    padding-top: 190px;
+    color: #ed770f;
+    font-family: var(---mainfont);
+  }
+
+  p{
+    text-align: center;
+    font-family: var(---mainfont);
+    color: white;
+  }
+}
+/* contact page ends */
 
 .boxx1 {
   height: 100px;
@@ -588,7 +1224,15 @@ a {
   width: 100%;
   padding-left: 20px;
   padding-right: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
+  /* background-color: green; */
+
+  h1{
+    text-align: center;
+    font-family: var(---mainfont);
+    font-weight: 500;
+    padding-top: 50px;
+  }
 }
 
 .lines {
@@ -613,7 +1257,7 @@ a {
   width: 100%;
   padding-left: 20px;
   padding-right: 20px;
-  margin-top: 50px;
+  margin-top: 20px;
   display: flex;
   justify-content: center;
   gap: 25px;
@@ -934,6 +1578,36 @@ a {
   margin-bottom: 30px;
 }
 
+.allpets-btn{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+
+  button{
+    padding: 20px 65px;
+    border: none;
+    background: linear-gradient(270deg, #ff994f, #fa6d86);
+    border-radius: 30px;
+    color: white;
+    font-family: var(---mainfont);
+    transition: 
+    background 0.4s ease-in-out,
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+   will-change: transform, box-shadow;
+  }
+
+  button:hover{
+    background: linear-gradient(270deg, #fa6d86, #ff994f); 
+    transform: translateY(-3px); 
+    box-shadow: 0 8px 20px rgba(250, 109, 134, 0.3); 
+  }
+
+  button i{
+    padding-left: 10px;
+  }
+}
+
 .dog-content11 {
   width: 100%;
   max-width: 400px;
@@ -1085,105 +1759,139 @@ a {
   }
 }
 
-.about-section {
+
+
+.about-us{
+  margin-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 50px;
   width: 100%;
-  padding-left: 20px;
-  padding-right: 20px;
-  h1 {
+  /* max-width: 600px; */
+  background-image: url(/images/animal-park.jpg);
+  background-size: cover;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-blend-mode: multiply;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.687);
+
+  h1{
+    font-family: var(---mainfont);
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 600;
+    color: #ff994f;
+  }
+
+  p{
+    color: white;
     text-align: center;
     font-family: var(---mainfont);
+    font-weight: 300;
+    padding-top: 10px;
+  }
+
+  button{
+    padding: 15px 35px;
+    color: white;
+    border: none;
+    background: linear-gradient(270deg, #ff994f, #fa6d86);
+    border-radius: 30px;
+    font-family: var(---mainfont);
+    transition: 
+    background 0.4s ease-in-out,
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+    will-change: transform, box-shadow;
+    cursor: pointer;
+  }
+
+  button:hover{
+    background: linear-gradient(270deg, #fa6d86, #ff994f); 
+    transform: translateY(-3px); 
+    box-shadow: 0 8px 20px rgba(250, 109, 134, 0.3); 
   }
 }
 
-.about-info {
+/* about styling */
+.newabout{
+  height: 500px;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  margin-top: 30px;
-  margin-bottom: 20px;
-}
-
-.about-info1 {
-  width: 100%;
-  max-width: 350px;
+  background-image: url(/images/lalala.jpg);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.475);
   padding-left: 20px;
   padding-right: 20px;
-  border-left: 3px solid #ec7e1c;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border-radius: 10px;
 
-  p {
+  h1{
+    text-align: center;
+    padding-top: 190px;
     font-family: var(---mainfont);
-    padding-bottom: 30px;
+    color: #ed770f;
+  }
+
+  p{
+    text-align: center;
+    font-family: var(---mainfont);
+    color: white;
   }
 }
 
-.about-info1:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-}
-.aboutrCircle {
-  height: 60px;
-  width: 60px;
-  background-color: #ec7e1c;
-  border-radius: 50%;
-  margin: 1rem auto;
+.teamdiv{
   display: flex;
   justify-content: center;
-  align-items: center;
-}
-
-.aboutrCircle i {
-  font-size: 22px;
-  color: white;
-}
-
-.about-info2 {
-  width: 100%;
-  max-width: 350px;
-  padding-left: 20px;
-  padding-right: 10px;
-  /* height: 300px; */
-  border-left: 3px solid #ec7e1c;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border-radius: 10px;
-
-  p {
+  margin-top: 30px;
+  button{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
     font-family: var(---mainfont);
-    font-size: 16px;
+    background: linear-gradient(270deg, #ff994f, #fa6d86);
+    color: white;
+    font-weight: 600;
+  }
+}
+
+.ourstory-section{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.storyimage{
+  width: 100%;
+  max-width: 645px;
+  background-image: url(/images/number1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.story-content{
+  width: 100%;
+  max-width: 620px;
+  /* background-color: red; */
+  padding-left: 40px;
+  padding-right: 30px;
+
+  h1{
+    padding-top: 15px;
+    font-family: var(---mainfont);
+    color: #ed770f;
+    font-weight: 600;
+    /* padding-top: 20px; */
+  }
+
+  p{
+    font-family: var(---mainfont);
     padding-top: 10px;
-    padding-bottom: 30px;
+    color: #555;
   }
 }
+/* about styling ends */
 
-.about-info2:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-}
-
-.about-info3 {
-  width: 100%;
-  max-width: 350px;
-  border-left: 3px solid #ec7e1c;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border-radius: 10px;
-  padding-left: 20px;
-  padding-right: 10px;
-
-  p {
-    font-family: var(---mainfont);
-    padding-bottom: 30px;
-  }
-}
-
-.about-info3:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-}
 
 /* form styling start */
 
@@ -1633,11 +2341,10 @@ form button:hover {
 
 .map-section {
   width: 100%;
-  padding: 0px 20px;
+  /* padding: 0px 20px; */
   margin-top: 50px;
   iframe {
     width: 100%;
-    border-radius: 10px;
   }
 }
 
@@ -1794,7 +2501,7 @@ form button:hover {
   padding: 15px 0px 3px 0px;
 }
 
-.team {
+/* .team {
   width: 100%;
   h1 {
     text-align: center;
@@ -1849,7 +2556,7 @@ form button:hover {
   margin: 0;
   font-family: var(---mainfont);
   padding-top: 5px;
-}
+} */
 
 .footer {
   width: 100%;
@@ -1859,6 +2566,7 @@ form button:hover {
   background-color: #ec7e1c;
   justify-content: center;
   padding-bottom: 20px;
+  margin-top: 50px;
 }
 
 .footer1 {
@@ -2271,8 +2979,6 @@ form button:hover {
   background-image: url(/images/park-dog.jpg);
   background-size: cover;
   background-position: center;
-  /* margin-top: -100px; */
-  position: relative;
   z-index: 1;
   background-blend-mode: multiply;
   background-color: rgba(0, 0, 0, 0.808);
@@ -3074,7 +3780,6 @@ form button:hover {
   background-image: url(/images/catts1.jpg);
   background-size: cover;
   background-position: center;
-  position: relative;
   z-index: 1;
   background-blend-mode: multiply;
   background-color: rgba(0, 0, 0, 0.808);
@@ -3820,8 +4525,6 @@ textarea:focus {
   background-image: url(/images/hero-parot.jpg);
   background-size: cover;
   background-position: top;
-  margin-top: -100px;
-  position: relative;
   z-index: 1;
   background-blend-mode: multiply;
   background-color: rgba(0, 0, 0, 0.808);
@@ -3863,6 +4566,7 @@ textarea:focus {
   border: 1px solid rgba(255, 255, 255, 0.2);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   padding: 10px;
+  /* padding-bottom: 10px; */
 
   h2 {
     font-family: var(---mainfont);
@@ -3877,12 +4581,19 @@ textarea:focus {
 
   button {
     margin-top: 15px;
+    margin-bottom: 10px;
     padding: 10px 20px;
     background: linear-gradient(to right, #ec7e1c, #d7263d);
     color: white;
     border: none;
     font-family: var(---mainfont);
     border-radius: 30px;
+    transition: background 0.4s ease, transform 0.2s ease;
+  }
+
+  button:hover{
+    background: linear-gradient(to right, #d7263d, #ec7e1c);
+    transform: scale(1.05);
   }
 }
 
@@ -3931,6 +4642,13 @@ textarea:focus {
     border: none;
     font-family: var(---mainfont);
     border-radius: 30px;
+    transition: background 0.4s ease, transform 0.2s ease;
+    margin-bottom: 10px;
+  }
+
+  button:hover{
+    background: linear-gradient(to right, #d7263d, #ec7e1c);
+    transform: scale(1.05);
   }
 }
 
@@ -3979,6 +4697,12 @@ textarea:focus {
     border: none;
     font-family: var(---mainfont);
     border-radius: 30px;
+    transition: background 0.4s ease, transform 0.2s ease;
+  }
+
+  button:hover{
+    background: linear-gradient(to right, #d7263d, #ec7e1c);
+    transform: scale(1.05);
   }
 }
 
@@ -4038,6 +4762,12 @@ textarea:focus {
     border: none;
     font-family: var(---mainfont);
     border-radius: 30px;
+    transition: background 0.4s ease, transform 0.2s ease;
+  }
+
+  button:hover{
+    background: linear-gradient(to right, #d7263d, #ec7e1c);
+    transform: scale(1.05);
   }
 }
 
@@ -4086,6 +4816,12 @@ textarea:focus {
     border: none;
     font-family: var(---mainfont);
     border-radius: 30px;
+    transition: background 0.4s ease, transform 0.2s ease;
+  }
+
+  button:hover{
+    background: linear-gradient(to right, #d7263d, #ec7e1c);
+    transform: scale(1.05);
   }
 }
 
@@ -4134,6 +4870,12 @@ textarea:focus {
     border: none;
     font-family: var(---mainfont);
     border-radius: 30px;
+    transition: background 0.4s ease, transform 0.2s ease;
+  }
+
+  button:hover{
+    background: linear-gradient(to right, #d7263d, #ec7e1c);
+    transform: scale(1.05);
   }
 }
 
@@ -4193,6 +4935,12 @@ textarea:focus {
     border: none;
     font-family: var(---mainfont);
     border-radius: 30px;
+    transition: background 0.4s ease, transform 0.2s ease;
+  }
+
+  button:hover{
+    background: linear-gradient(to right, #d7263d, #ec7e1c);
+    transform: scale(1.05);
   }
 }
 
@@ -4241,6 +4989,12 @@ textarea:focus {
     border: none;
     font-family: var(---mainfont);
     border-radius: 30px;
+    transition: background 0.4s ease, transform 0.2s ease;
+  }
+
+  button:hover{
+    background: linear-gradient(to right, #d7263d, #ec7e1c);
+    transform: scale(1.05);
   }
 }
 
@@ -4289,6 +5043,12 @@ textarea:focus {
     border: none;
     font-family: var(---mainfont);
     border-radius: 30px;
+    transition: background 0.4s ease, transform 0.2s ease;
+  }
+
+  button:hover{
+    background: linear-gradient(to right, #d7263d, #ec7e1c);
+    transform: scale(1.05);
   }
 }
 
@@ -4348,6 +5108,12 @@ textarea:focus {
     border: none;
     font-family: var(---mainfont);
     border-radius: 30px;
+    transition: background 0.4s ease, transform 0.2s ease;
+  }
+
+  button:hover{
+    background: linear-gradient(to right, #d7263d, #ec7e1c);
+    transform: scale(1.05);
   }
 }
 
@@ -4396,6 +5162,12 @@ textarea:focus {
     border: none;
     font-family: var(---mainfont);
     border-radius: 30px;
+    transition: background 0.4s ease, transform 0.2s ease;
+  }
+
+  button:hover{
+    background: linear-gradient(to right, #d7263d, #ec7e1c);
+    transform: scale(1.05);
   }
 }
 
@@ -4444,7 +5216,13 @@ textarea:focus {
     border: none;
     font-family: var(---mainfont);
     border-radius: 30px;
+    transition: background 0.4s ease, transform 0.2s ease;
   }
+  
+  button:hover{
+    background: linear-gradient(to right, #d7263d, #ec7e1c);
+    transform: scale(1.05);
+}
 }
 
 .parot-image12 {
@@ -4467,14 +5245,14 @@ textarea:focus {
   background-image: url(/images/herorabbit2.jpg);
   background-size: cover;
   background-position: center;
-  margin-top: -100px;
-  background-repeat: no-repeat;
-  position: relative;
+  /* background-repeat: no-repeat; */
+  /* position: relative; */
   z-index: 1;
   background-blend-mode: multiply;
   background-color: rgba(0, 0, 0, 0.808);
   padding-left: 20px;
   padding-right: 20px;
+  
 
   h1 {
     color: #ed770f;
@@ -4532,6 +5310,12 @@ textarea:focus {
     font-family: var(---mainfont);
     border-radius: 30px;
     cursor: pointer;
+    transition: background 0.4s ease, transform 0.2s ease;
+  }
+
+  button:hover{
+    background: linear-gradient(to right, #d7263d, #ec7e1c);
+    transform: scale(1.05);
   }
 }
 
@@ -4581,6 +5365,12 @@ textarea:focus {
     font-family: var(---mainfont);
     border-radius: 30px;
     cursor: pointer;
+    transition: background 0.4s ease, transform 0.2s ease;
+  }
+
+  button:hover{
+    background: linear-gradient(to right, #d7263d, #ec7e1c);
+    transform: scale(1.05);
   }
 }
 
@@ -4630,6 +5420,12 @@ textarea:focus {
     font-family: var(---mainfont);
     border-radius: 30px;
     cursor: pointer;
+    transition: background 0.4s ease, transform 0.2s ease;
+  }
+
+  button:hover{
+    background: linear-gradient(to right, #d7263d, #ec7e1c);
+    transform: scale(1.05);
   }
 }
 
@@ -4690,6 +5486,12 @@ textarea:focus {
     font-family: var(---mainfont);
     border-radius: 30px;
     cursor: pointer;
+    transition: background 0.4s ease, transform 0.2s ease;
+  }
+
+  button:hover{
+    background: linear-gradient(to right, #d7263d, #ec7e1c);
+    transform: scale(1.05);
   }
 }
 
@@ -4739,6 +5541,12 @@ textarea:focus {
     font-family: var(---mainfont);
     border-radius: 30px;
     cursor: pointer;
+    transition: background 0.4s ease, transform 0.2s ease;
+  }
+
+  button:hover{
+    background: linear-gradient(to right, #d7263d, #ec7e1c);
+    transform: scale(1.05);
   }
 }
 
@@ -4788,6 +5596,12 @@ textarea:focus {
     font-family: var(---mainfont);
     border-radius: 30px;
     cursor: pointer;
+    transition: background 0.4s ease, transform 0.2s ease;
+  }
+
+  button:hover{
+    background: linear-gradient(to right, #d7263d, #ec7e1c);
+    transform: scale(1.05);
   }
 }
 
@@ -4848,6 +5662,12 @@ textarea:focus {
     font-family: var(---mainfont);
     border-radius: 30px;
     cursor: pointer;
+    transition: background 0.4s ease, transform 0.2s ease;
+  }
+
+  button:hover{
+    background: linear-gradient(to right, #d7263d, #ec7e1c);
+    transform: scale(1.05);
   }
 }
 
@@ -4897,6 +5717,12 @@ textarea:focus {
     font-family: var(---mainfont);
     border-radius: 30px;
     cursor: pointer;
+    transition: background 0.4s ease, transform 0.2s ease;
+  }
+
+  button:hover{
+    background: linear-gradient(to right, #d7263d, #ec7e1c);
+    transform: scale(1.05);
   }
 }
 
@@ -4946,6 +5772,12 @@ textarea:focus {
     font-family: var(---mainfont);
     border-radius: 30px;
     cursor: pointer;
+    transition: background 0.4s ease, transform 0.2s ease;
+  }
+
+  button:hover{
+    background: linear-gradient(to right, #d7263d, #ec7e1c);
+    transform: scale(1.05);
   }
 }
 
@@ -5006,6 +5838,12 @@ textarea:focus {
     font-family: var(---mainfont);
     border-radius: 30px;
     cursor: pointer;
+    transition: background 0.4s ease, transform 0.2s ease;
+  }
+
+  button:hover{
+    background: linear-gradient(to right, #d7263d, #ec7e1c);
+    transform: scale(1.05);
   }
 }
 
@@ -5055,6 +5893,12 @@ textarea:focus {
     font-family: var(---mainfont);
     border-radius: 30px;
     cursor: pointer;
+    transition: background 0.4s ease, transform 0.2s ease;
+  }
+
+  button:hover{
+    background: linear-gradient(to right, #d7263d, #ec7e1c);
+    transform: scale(1.05);
   }
 }
 
@@ -5104,6 +5948,12 @@ textarea:focus {
     font-family: var(---mainfont);
     border-radius: 30px;
     cursor: pointer;
+    transition: background 0.4s ease, transform 0.2s ease;
+  }
+
+  button:hover{
+    background: linear-gradient(to right, #d7263d, #ec7e1c);
+    transform: scale(1.05);
   }
 }
 
@@ -5126,7 +5976,7 @@ textarea:focus {
   background-size: cover;
   background-position: center;
   /* margin-top: -100px; */
-  position: relative;
+  /* position: relative; */
   z-index: 1;
   background-blend-mode: multiply;
   background-color: rgba(0, 0, 0, 0.808);
@@ -6007,8 +6857,6 @@ textarea:focus {
   background-image: url(/images/training-hero.jpg);
   background-size: cover;
   background-position: center;
-  margin-top: -100px;
-  position: relative;
   z-index: 1;
   background-blend-mode: multiply;
   background-color: rgba(0, 0, 0, 0.608);
@@ -6490,6 +7338,17 @@ textarea:focus {
   } */
 }
 
+@media (max-width: 1004px) {
+  .furteamsection{
+    flex-wrap: wrap;
+    flex-direction: co;
+  }
+
+  .furteam1{
+    max-width: 400px;
+  }
+}
+
 @media (max-width: 906px) {
   .course1{
     h2{
@@ -6540,10 +7399,63 @@ textarea:focus {
   }
 }
 
+@media (max-width: 990px) {
+  .ourstory-section{
+    flex-wrap: wrap;
+  }
+
+  .storyimage{
+    height: 400px;
+    width: 100%;
+    max-width: 990px;
+  }
+}
+
+@media (max-width: 865px) {
+  .furteam1{
+    /* max-width: 400px; */
+  }
+}
+
 @media (max-width: 841px) {
   .course-section{
     flex-wrap: wrap;
   }
+
+  .furteam1{
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 800px) {
+    .navbar ul{
+       position: absolute;
+       top: 70px;
+       left: 0;
+       right: 0;
+       flex-direction: column;
+       text-align: center;
+       background-color: #ec7e1c;
+       gap: 10;
+       transition: max-height 0.4s ease-in-out;
+       overflow: hidden;
+    }
+
+    nav ul li{
+        padding: 10px;
+    }
+
+    .navbar ul li a{
+      color: white;
+    }
+
+    .menu{
+        display: block;
+    }
+
+    #menuList{
+        transition: all 0.5s;
+    }
 }
 
 @media (max-width: 982px) {
@@ -7510,6 +8422,26 @@ textarea:focus {
   }
 
   /* grooming styling ends */
+
+  .our-story{
+    flex-wrap: wrap;
+  }
+
+  .story1{
+    max-width: 650px;
+  }
+
+  .story-icons{
+    max-width: 650px;
+  }
+
+  .story2{
+    max-width: 650px;
+  }
+
+  .story-icons2{
+    max-width: 650px;
+  }
 }
 
 
@@ -7534,6 +8466,10 @@ textarea:focus {
 /* signup sty;ing start */
 
 @media (max-width: 567px) {
+  .about-section{
+    margin-top: 30px;
+  }
+
   .boxx1 {
     max-width: 370px;
   }
@@ -7595,9 +8531,7 @@ textarea:focus {
     flex-wrap: wrap;
   }
 
-  .about-info {
-    flex-wrap: wrap;
-  }
+
 
   .right-side {
     border-top-right-radius: 0px;

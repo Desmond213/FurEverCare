@@ -9,24 +9,21 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-    <nav class="nav__bar">
-      <div class="logo">
-        <a href="index.html"><img src="images/Furevercare.png" style="width: 60px; align-items: center; margin-top: 7px;"></a>
-      </div>
-      <ul class="nav_links">
-        <li class="nav_link"><a href="#"> HOME</a></li>
-        <li class="nav_link"><a href="#AboutSection"> ABOUT</a></li>
-        <li class="nav_link"><a href="#productSection"> PRODUCT</a></li>
-        <li class="nav_link"><a href="#formSection"> CONTACT</a></li>
-      </ul>
-      <button class="bot">
-        <a href="signup.html">Sign Up</a>
-      </button>
-      <a href="#" class="nav__hamburger">
-        <span class="nav_hamburger_line"></span>
-        <span class="nav_hamburger_line"></span>
-        <span class="nav_hamburger_line"></span>
-      </a>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="images/Furevercare.png" alt="">
+        </div>
+
+        <ul id="menulist">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="pets.html">Pets</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="menu">
+           <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+        </div>
     </nav>
 
     <div class="traininghero-image">
@@ -242,6 +239,18 @@
     </script>
 
     <script>
+      let menulist = document.getElementById("menulist"); // Corrected id here
+
+        menulist.style.maxHeight = "0px";
+
+        function toggleMenu() {
+            if (menulist.style.maxHeight === "0px") {
+                menulist.style.maxHeight = "300px";
+            } else {
+                menulist.style.maxHeight = "0px";
+            }
+        }
+
       const questions = document.querySelectorAll('.faq-question');
 
     questions.forEach((question) => {

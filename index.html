@@ -23,7 +23,7 @@
   </head>
   <body>
     
-    <nav class="nav__bar">
+    <!-- <nav class="nav__bar">
       <div class="logo" onclick="scrollToTop()">
         <img src="images/Furevercare.png" style="width: 60px; align-items: center; margin-top: 7px;">
       </div>
@@ -37,15 +37,28 @@
       <div class="nav_links">
         <ul>
           <li class="nav_link"><a href="#"> Home</a></li>
-          <li class="nav_link"><a href="#AboutSection"> About</a></li>
+          <li class="nav_link"><a href="#about.html"> About</a></li>
           <li class="nav_link"><a href="#productSection"> Product</a></li>
           <li class="nav_link"><a href="#formSection"> Contact</a></li>
         </ul>
-        <button class="bot">
-          <a href="signup.html">Sign Up</a>
-        </button>
       </div>
-    </nav> 
+    </nav>  -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="images/Furevercare.png" alt="">
+        </div>
+
+        <ul id="menulist">
+            <li><a href="#">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="pets.html">Pets</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="menu">
+           <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+        </div>
+    </nav>
     
     <div class="containerBody">
       <br />
@@ -57,7 +70,7 @@
           <div class="hero-container1">
             <h1>Love, Care, and Happiness for Every Pet</h1>
             <div class="btn1">
-              <button>Read More <i class="fa-solid fa-arrow-right-long" id="readmore-icon"></i></button>
+              <a href="#read-more"><button>Read More <i class="fa-solid fa-turn-down" id="readmore-icon"></i></button></a>
             </div>
           </div>
           <div class="hero-container2">
@@ -68,7 +81,83 @@
         </div>
       </div>
 
-      <div class="schedule-section" data-aos="fade-up"
+      <div class="about-section" id="read-more">
+         <div class="about-us">
+           <h1>About Us</h1>
+           <p>At FureverCare, we believe every pet deserves a happy, healthy, and loving life. Whether you're a dog devotee, cat cuddler, bunny buddy, or parrot pal, we’re here to support your journey as a dedicated pet parent. From expert care tips to heartfelt stories and trusted resources, FureverCare is your go-to hub for all things furry, feathered, and everything in between.</p>
+           <p>Join our community of animal lovers—because every pet deserves furever care.</p>
+           <div style="display: flex; justify-content: center; margin-top: 20px;">
+             <button>Learn More About Us</button>
+           </div>
+         </div>
+      </div>
+
+      <div class="our-pets" data-aos="fade-up"
+         data-aos-duration="1000">
+        <h1>Featured Pets</h1>
+        <div class="petcard-section">
+          <div class="pett1">
+            <div class="pett-image1"></div>
+            <h2>Jasper</h2>
+            <p>Age: 2 Years</p>
+            <p>Breed: Chihuahua</p>
+            <p>Soft, gentle, and affectionate — a peaceful companion who loves quiet moments. 🐾💖</p>
+            <a href="dogs.html#schedule-form"><button>Schedule Visit</button></a>
+          </div>
+
+          <div class="pett2">
+              <div class="pett-image2"></div>
+              <h2>Daisy</h2>
+              <p>Age: 11 months</p>
+              <p>Breed: Britannia Petite</p>
+              <p>Curious, playful, and deeply loyal — a vibrant companion who thrives on attention. 💙🐾</p>
+              <a href="cats.html#schedule-form"><button>Schedule Visit</button></a>
+          </div>
+          <div class="pett3">
+              <div class="pett-image3"></div>
+              <h2>Jasper</h2>
+              <p>Age: 5 months</p>
+              <p>Breed: Dwarf Hotot</p>
+              <p>Gentle, calm, and loving — your perfect fluffy snuggle buddy. 💙🐾</p>
+              <a href="rabbit.html#schedule-form"><button>Schedule Visit</button></a>
+          </div>
+        </div>
+
+        <div class="pettcard-section1" data-aos="fade-up"
+         data-aos-duration="1000">
+          <div class="pett4">
+            <div class="pett-image4"></div>
+            <h2>Duke</h2>
+            <p>Age: 8 Months</p>
+            <p>Breed: Scarlet Macaw</p>
+            <p>Playful, curious, and affectionate — a lively little companion. 🐾</p>
+            <a href="parot.html#schedule-form"><button>Schedule Visit</button></a>
+          </div>
+
+          <div class="pett5">
+              <div class="pett-image5"></div>
+              <h2>Luna</h2>
+              <p>Age: 4 Months</p>
+              <p>Breed: Cain corso</p>
+              <p>Spotted, spirited, and curious — this playful kitten is full of life and ready to explore with you! 🐾✨</p>
+              <a href="dogs.html#schedule-form"><button>Schedule Visit</button></a>
+          </div>
+          <div class="pett6">
+              <div class="pett-image6"></div>
+              <h2>Molly</h2>
+              <p>Age: 2 Years</p>
+              <p>Breed: Dusky-Headed Conure</p>
+              <p>Calm, intelligent, and affectionate — a beautiful companion who loves quiet cuddles and gentle play. 💙</p>
+              <a href="parot.html#schedule-form"><button>Schedule Visit</button></a>
+          </div>
+        </div>
+
+        <div class="allpets-btn">
+          <a href="pets.html"><button>See All Pets<i class="fa-solid fa-arrow-right-long"></i></button></a>
+        </div>
+      </div>
+
+      <!-- <div class="schedule-section" data-aos="fade-up"
        data-aos-duration="1000">
         <div class="boxx1">
           <div class="boxx-flex1">
@@ -118,10 +207,10 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <!-- tobi-code-start -->
-      <div class="animal-section" data-aos="fade-up"
+      <!-- <div class="animal-section" data-aos="fade-up"
        data-aos-duration="1000">
         <div class="animal1">
           <button>
@@ -162,42 +251,7 @@
           <div class="pets">OUR PETS</div>
         </div>
 
-        <!-- <div class="pets-details">
-          <div class="picture1">
-            <div class="dog-picture1"></div>
-            <div class="dog-content1">
-              <h2>Max</h2>
-              <p><strong>Age:</strong> 2 years</p>
-              <p><strong>Breed:</strong> Labrador Retriever</p>
-              <p><strong>Location:</strong> New York, NY</p>
-              <p><strong>Vaccinated:</strong> Yes</p>
-              <button>Adopt Me</button>
-            </div>
-          </div>
-
-          <div class="picture2">
-            <div class="cat-picture1"></div>
-            <div class="cat-content1">
-              <h2>Iggy</h2>
-              <p><strong>Age:</strong> 3 years</p>
-              <p><strong>Breed:</strong> Labrador Retriever</p>
-              <p><strong>Location:</strong> San Diego</p>
-              <p><strong>Vaccinated:</strong> Yes</p>
-              <button>Adopt Me</button>
-            </div>
-          </div>
-          <div class="picture3">
-            <div class="tortise-picture1"></div>
-            <div class="tortise-content1">
-              <h2>Neko</h2>
-              <p><strong>Age:</strong> 4 years</p>
-              <p><strong>Breed:</strong> Manx Cat</p>
-              <p><strong>Location:</strong> Arkansas</p>
-              <p><strong>Vaccinated:</strong> Yes</p>
-              <button>Adopt Me</button>
-            </div>
-          </div>
-        </div> -->
+        
         <div class="petcard-section" data-aos="fade-up"
          data-aos-duration="1000">
           <div class="pett1">
@@ -454,9 +508,53 @@
             <p>+234 (812)-689-3906</p>
           </div>
         </section>
-      </div>
+      </div> -->
 
       <!-- tobi-code-end -->
+
+      <div class="testimonial-container">
+        <div class="testimonial">
+           <div class="testmonial-text" data-aos="fade-up"
+             data-aos-duration="1000">
+             <div class="user-text">
+               <i class="fa-solid fa-quote-left" style="font-size: 30px; margin-bottom: 50px; margin-top: 20px;"></i>
+               <p>I found FureverCare when I was looking for help with my senior cat, and I’ve been using it ever since. It's not just for dogs — I’ve found resources for my rabbit and even my guinea pig. It’s comforting to have one place that really gets how much we love our animals.</p>
+               <div style="display: flex; justify-content: center; margin-top: 15px;">
+                  <div class="ourimg-one"></div>
+               </div>
+               <span>John rayan</span>
+             </div>
+            </div>
+
+            <div class="testmonial-text2" data-aos="fade-up"
+              data-aos-duration="1000">
+             <div class="user-text2">
+               <i class="fa-solid fa-quote-left" style="font-size: 30px; margin-bottom: 50px; margin-top: 20px;"></i>
+               <p>FureverCare has been a lifesaver for me and my rescue dog! The site is full of helpful resources, and the love they show for animals really shines through. I feel confident knowing my pet is in good hands with a community that truly cares.</p>
+               <div style="display: flex; justify-content: center; margin-top: 15px;">
+                  <div class="ourimg-one2"></div>
+               </div>
+               <span>Sarah elion</span>
+             </div>
+            </div>
+
+            <div class="testmonial-text3" data-aos="fade-up"
+              data-aos-duration="1000">
+             <div class="user-text3">
+               <i class="fa-solid fa-quote-left" style="font-size: 30px; margin-bottom: 50px; margin-top: 20px;"></i>
+               <p>Furever Care has been a lifesaver for me and my pets. Whether it’s finding the right food for my senior cat, toys that actually last for my energetic dog, or tips on how to care for my newly adopted rabbit, this site has it all. The advice is trustworthy, the products are high quality, and you can really tell everything is created with love for animals. I finally feel like I have a go-to place that truly understands what it means to be a pet parent</p>
+               <div style="display: flex; justify-content: center; margin-top: 15px;">
+                  <div class="ourimg-one3"></div>
+               </div>
+               <span>Daniel Hartman</span>
+             </div>
+            </div>
+            <div class="tetim-btn">
+              <a href="about.html#testmoonials"><button>More testimonials</button></a>
+            </div>
+        </div>
+
+      </div>
 
       <header class="page-header" data-aos="fade-up"
        data-aos-duration="1000">
@@ -638,82 +736,9 @@
         </section>
       </main>
 
-      <section id="formSection">
-        <div class="form-container" id="contact">
-          <div class="left-side" data-aos="fade-right">
-            <h4>Let's get in touch</h4>
-            <p>
-              Have a question or need help with your pet? We’re here for you —
-              just drop us a message!
-            </p>
-            <p>
-              <i class="fa-solid fa-address-card" id="contact-icon1"></i>No 6B
-              Cherry drive, Lagos Nigeria
-            </p>
-            <p>
-              <i class="fa-solid fa-envelope" id="contact-icon1"></i
-              >furevercare.info@gmail.com
-            </p>
-            <p>
-              <i class="fa-solid fa-phone" id="contact-icon1"></i>+234 903 715
-              5472
-            </p>
-            <p>Connect with us:</p>
-            <div class="iconformargin">
-              <i class="fa-brands fa-square-facebook" id="contact-icon2"></i>
-              <i class="fa-brands fa-square-twitter" id="contact-icon2"></i>
-              <i class="fa-brands fa-instagram" id="contact-icon2"></i>
-            </div>
-          </div>
+      
 
-          <div class="right-side" data-aos="fade-left">
-            <h4>Contact Us</h4>
-            <form action="https://formspree.io/f/mpwlnddr" method="POST">
-              <label>
-                Fullname
-                <input
-                  type="email"
-                  name="email"
-                  placeholder="johndoe" required
-                />
-              </label>
-
-              <label>
-                Phone:
-                <input type="tel" name="phone" placeholder="+234" required />
-              </label>
-
-              <label>
-                Email
-                <input type="email" name="email" placeholder="johndoe@example.com" required />
-              </label>
-
-              <label>
-                
-                <input
-                  type="text"
-                  name="address"
-                  placeholder="Your message"
-                  id="message-input"
-                />
-              </label>
-
-              <button type="submit">Send</button>
-            </form>
-          </div>
-        </div>
-      </section>
-
-      <div class="map-section">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31708.259158815956!2d3.3697464572998204!3d6.580538459915459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1757680641824!5m2!1sen!2sng"
-          width="600"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
+      
       </div>
 
       <div class="footer">
@@ -737,9 +762,9 @@
         <div class="footer2">
           <h2>Useful Links</h2>
           <p><a href="">HOME</a></p>
-          <p><a href="">ABOUT</a></p>
+          <p><a href="about.html">ABOUT</a></p>
           <p><a href="">PRODUCT</a></p>
-          <p><a href="">CONTACT</a></p>
+          <p><a href="contact.html">CONTACT</a></p>
           <p></p>
           <p></p>
           <p></p>
@@ -772,12 +797,24 @@
 
     <script>
 
-      function scrollToTop() {
-        window.scrollTo({
-          top: 0,
-          behavior: 'smooth'
-        });
-      }
+      let menulist = document.getElementById("menulist"); // Corrected id here
+
+        menulist.style.maxHeight = "0px";
+
+        function toggleMenu() {
+            if (menulist.style.maxHeight === "0px") {
+                menulist.style.maxHeight = "300px";
+            } else {
+                menulist.style.maxHeight = "0px";
+            }
+        }
+
+      // function scrollToTop() {
+      //   window.scrollTo({
+      //     top: 0,
+      //     behavior: 'smooth'
+      //   });
+      // }
 
       const counters = document.querySelectorAll(".counter");
       const duration = 2000; // total animation time in ms

@@ -5,26 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/703cd02033.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class="nav__bar">
-      <div class="logo">
-        <a href="index.html"><img src="images/Furevercare.png" style="width: 60px; align-items: center; margin-top: 7px;"></a>
-      </div>
-      <ul class="nav_links">
-        <li class="nav_link"><a href="#"> HOME</a></li>
-        <li class="nav_link"><a href="#AboutSection"> ABOUT</a></li>
-        <li class="nav_link"><a href="#productSection"> PRODUCT</a></li>
-        <li class="nav_link"><a href="#formSection"> CONTACT</a></li>
-      </ul>
-      <button class="bot">
-        <a href="signup.html">Sign Up</a>
-      </button>
-      <a href="#" class="nav__hamburger">
-        <span class="nav_hamburger_line"></span>
-        <span class="nav_hamburger_line"></span>
-        <span class="nav_hamburger_line"></span>
-      </a>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="images/Furevercare.png" alt="">
+        </div>
+
+        <ul id="menulist">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="pets.html">Pets</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="menu">
+           <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+        </div>
     </nav>
 
     <div class="parothero-image">
@@ -129,7 +127,7 @@
          <h2>Bear</h2>
          <p>Age: 8 months</p>
          <p>Breed: Scarlet Macaw</p>
-         <p>Friendly, playful, and great with kids. Loves long walks and cuddlesFriendly, playful, and talkative — a small, smart bird that easily bonds with its owner.</p>
+         <p>Friendly, playful, and great with kids. Loves long walks and cuddlesFriendly, playful, and talkative</p>
          <a href="#schedule-form"><button>Schedule Visit</button></a>
        </div>
 
@@ -138,7 +136,7 @@
           <h2>Zoe</h2>
           <p>Age: 9 months</p>
           <p>Breed: Cockatoo Parrot</p>
-          <p>Friendly, playful, and great with kids. Loves long walks and cuddlesFriendly, playful, and talkative — a small, smart bird that easily bonds with its owner.</p>
+          <p>Affectionate and social, this talkative Cockatoo thrives on attention and forms deep bonds with its humans.</p>
           <a href="#schedule-form"><button>Schedule Visit</button></a>
        </div>
        <div class="parot9">
@@ -146,7 +144,7 @@
           <h2>Tucker</h2>
           <p>Age: 2 Years</p>
           <p>Breed: Budgerigar Parrot</p>
-          <p>Friendly, playful, and great with kids. Loves long walks and cuddlesFriendly, playful, and talkative — a small, smart bird that easily bonds with its owner.</p>
+          <p>Cheerful and curious, this smart little parrot loves to interact and quickly bonds with its owner.</p>
           <a href="#schedule-form"><button>Schedule Visit</button></a>
        </div>
     </div>
@@ -245,5 +243,19 @@
           </div>
         </div>
       </div>
+
+      <script>
+         let menulist = document.getElementById("menulist"); // Corrected id here
+
+        menulist.style.maxHeight = "0px";
+
+        function toggleMenu() {
+            if (menulist.style.maxHeight === "0px") {
+                menulist.style.maxHeight = "300px";
+            } else {
+                menulist.style.maxHeight = "0px";
+            }
+        }
+      </script>
 </body>
 </html>
